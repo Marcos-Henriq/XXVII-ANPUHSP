@@ -19,7 +19,7 @@ export default function RootLayout({
         <link rel="manifest" href="/images/manifest.json" />
         <link rel="icon" href="/images/favicon.ico"/>
       </head>
-      <body>
+      <body style={{backgroundColor:"#f9f9f9"}}>
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
