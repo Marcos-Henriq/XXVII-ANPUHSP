@@ -1,0 +1,50 @@
+/* styles.css */
+@import url('/app/globals.css');
+
+.root {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .menuButton {
+    margin-right: 16px; /* Ajuste o valor conforme necessário */
+  }
+  
+  .title {
+    flex-grow: 1;
+  }
+  
+  @media (max-width: 328px) {
+    .title {
+      font-size: 1rem;
+    }
+  }
+  
+  .list {
+    width: 250px;
+  }
+  
+  .fullList {
+    width: auto;
+  }
+  
+  .paper {
+    background-color: #DBCFBF;
+    color: white;
+  }
+  
+  .menuTitle {
+    color: black;
+    background-color: #F4B303;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem .8rem;
+    row-gap: 1rem;
+  }
+  
+  .nested {
+    padding-left: 16px; /* Ajuste o valor conforme necessário */
+  }
+  

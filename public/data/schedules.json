@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "dayWeek": "Segunda-Feira",
+    "date": "02/09/2024",
+    "schedules": [
+        {
+            "schedule": "08:00 - 12:00",
+            "event": "Credenciamento"
+        },
+        {
+            "schedule": "09:00 - 12:00",
+            "event": "Fórum de Graduação"
+        },
+        {
+            "schedule": "14:00 - 18:00",
+            "event": "Seminários Temáticos"
+        },
+        {
+            "schedule": "19:30 - 21:00",
+            "event": "Abertura COnferência"
+        }
+    ]
+  },
+  {
+    "id": 2,
+    "dayWeek": "Terça-Feira",
+    "date": "03/09/2024",
+    "schedules": [
+        {
+            "schedule": "08:00 - 10:00",
+            "event": "Minicursos"
+        },
+        {
+            "schedule": "10:30 - 12:30",
+            "event": [
+                {
+                    "id": 1,
+                    "name": "Mesa-redonda 1"
+                },
+                {
+                    "id": 2,
+                    "name": "Mesa-redonda 2"
+                }
+            ]
+        },
+        {
+            "schedule": "14:00 - 18:00",
+            "event": "Seminários Temáticos"
+        },
+        {
+            "schedule": "19:30 - 21:00",
+            "event": "Conferência/Mesa Especial"
+        }
+    ]
+  },
+  {
+    "id": 3,
+    "dayWeek": "Quarta-Feira",
+    "date": "04/09/2024",
+    "schedules": [
+        {
+            "schedule": "08:00 - 10:00",
+            "event": "Minicursos"
+        },
+        {
+            "schedule": "10:30 - 12:30",
+            "event": [
+                {
+                    "id": 3,
+                    "name": "Mesa-redonda 3"
+                },
+                {
+                    "id": 4,
+                    "name": "Mesa-redonda 4"
+                }
+            ]
+        },
+        {
+            "schedule": "14:00 - 16:30",
+            "event": "Seminários Temáticos"
+        },
+        {
+            "schedule": "17:00 - 18:30",
+            "event": "Assembleia"
+        },
+        {
+            "schedule": "20:00",
+            "event": "Lançamento de Livros"
+        },
+        {
+            "schedule": "21:00",
+            "event": "Atividade Cultural"
+        }
+    ]
+  },
+  {
+    "id": 4,
+    "dayWeek": "Quinta-Feira",
+    "date": "05/09/2024",
+    "schedules": [
+        {
+            "schedule": "08:00 - 10:00",
+            "event": "Minicursos"
+        },
+        {
+            "schedule": "10:30 - 12:30",
+            "event": [
+                {
+                    "id": 3,
+                    "name": "Mesa-redonda 5"
+                },
+                {
+                    "id": 4,
+                    "name": "Mesa-redonda 6"
+                }
+            ]
+        },
+        {
+            "schedule": "14:00 - 18:00",
+            "event": "Seminários Temáticos"
+        },
+        {
+            "schedule": "19:30 - 21:30",
+            "event": "Encerramento Conferência"
+        }
+    ]
+  },
+  {
+    "id": 5,
+    "dayWeek": "Sexta-Feira",
+    "date": "06/09/2024",
+    "schedules": [
+        {
+            "schedule": "horários a serem definidos",
+            "event": "Minicursos"
+        },
+        {
+            "schedule": "horários a serem definidos",
+            "event": "Centro de Memória da Unicamp"
+        },
+        {
+            "schedule": "horários a serem definidos",
+            "event": "Biblioteca de Obras Raras"
+        },
+        {
+            "schedule": "horários a serem definidos",
+            "event": "Arquivo Edgard Leuenroth"
+        }
+    ]
+  }
+]

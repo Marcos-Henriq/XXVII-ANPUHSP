@@ -1,33 +1,64 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+body{
+    background-color: #f4f4f4;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.text-default {
+    padding: 0.2rem 0;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bigtitle {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1b1b1a;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1b1b1a;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #4f4f43;
+    font-weight: 500;
+    margin: 0;
+}
+
+.button {
+    display: flex;
+    padding: 18px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    margin: 0 !important;
+    border-radius: 24px;
+    text-transform: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.link {
+    text-decoration: none;
+    color: #1b1b1a;
+}
+
+.scheduleContainer{
+    border-left: 3px solid #F4B303;
+}
+
+.thumbnail-event{
+    height: 150px;
+    background: url(/images/banner.png);
+    background-size: cover;
 }
