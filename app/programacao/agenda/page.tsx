@@ -16,7 +16,7 @@ export default function Agenda() {
           </Link>
           <Typography color="text.primary">Programação - Agenda</Typography>
         </Breadcrumbs>
-        <h2>Agenda</h2>
+        <h2 className="mb-2">Programação</h2>
         <EventList></EventList>
       </Container>
     </PageDefault>

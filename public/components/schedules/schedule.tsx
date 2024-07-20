@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import { Col, Container, Row } from "react-bootstrap";
 import { AccessAlarm, Padding } from "@mui/icons-material";
+import Link from "next/link";
 
 interface ScheduleEvent {
   schedule: string;
@@ -25,7 +26,7 @@ interface Event {
 
 const Schedule: React.FC<Event> = ({ id, dayWeek, date, schedules }) => {
   return (
-    <Container className="d-flex flex-column align-start justify-center p-0 my-4 gap-2">
+    <Container className="d-flex flex-column align-start justify-center p-0 my-4 gap-3">
       <div>
         <p className="subtitle">{date}</p>
         <h1 className="title">{dayWeek}</h1>
@@ -33,7 +34,7 @@ const Schedule: React.FC<Event> = ({ id, dayWeek, date, schedules }) => {
       <Paper elevation={1} className="scheduleContainer">
         <List className="d-flex flex-column gap-2">
           {schedules.map((schedule, index) => (
-            <ListItem sx={{display:"flex",alignItems:"start"}}>
+            <ListItem sx={{ display: "flex", alignItems: "start" }}>
               <ListItemAvatar>
                 <Avatar sx={{ backgroundColor: "#F4B303" }}>
                   <AccessAlarm color="secondary" fontSize="medium" />
@@ -44,11 +45,12 @@ const Schedule: React.FC<Event> = ({ id, dayWeek, date, schedules }) => {
                 {Array.isArray(schedule.event) ? (
                   <Row>
                     {schedule.event.map((e) => (
-                      <Col key={e.id}>
-                        <div className="thumbnail-event">
-                        </div>
-                        {e.name}
-                      </Col>
+                      <Link
+                        className="link"
+                        href={`/programacao/mesa-redonda/${e.id}`}
+                      >
+                        <span className="title">{e.name}</span>
+                      </Link>
                     ))}
                   </Row>
                 ) : (
