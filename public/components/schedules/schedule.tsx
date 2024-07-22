@@ -1,16 +1,17 @@
+"use client";
+
 import React from "react";
-import Header from "../header/header";
 import {
   Paper,
   List,
   ListItem,
   ListItemAvatar,
   Avatar,
-  ListItemText,
 } from "@mui/material";
 import { Col, Container, Row } from "react-bootstrap";
-import { AccessAlarm, Padding } from "@mui/icons-material";
+import { AccessAlarm } from "@mui/icons-material";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 interface ScheduleEvent {
   schedule: string;
@@ -34,7 +35,7 @@ const Schedule: React.FC<Event> = ({ id, dayWeek, date, schedules }) => {
       <Paper elevation={1} className="scheduleContainer">
         <List className="d-flex flex-column gap-2">
           {schedules.map((schedule, index) => (
-            <ListItem sx={{ display: "flex", alignItems: "start" }}>
+            <ListItem key={index} sx={{ display: "flex", alignItems: "start" }}>
               <ListItemAvatar>
                 <Avatar sx={{ backgroundColor: "#F4B303" }}>
                   <AccessAlarm color="secondary" fontSize="medium" />
@@ -44,10 +45,11 @@ const Schedule: React.FC<Event> = ({ id, dayWeek, date, schedules }) => {
                 <span className="title">{schedule.schedule}</span>
                 {Array.isArray(schedule.event) ? (
                   <Row>
-                    {schedule.event.map((e) => (
+                    {schedule.event.map((e, idx) => (
                       <Link
+                        key={idx}
                         className="link"
-                        href={`/programacao/mesa-redonda/${e.id}`}
+                        href={`/programacao/mesa-redonda/${e.id}/${'/agenda'}/${'Agenda'}`}
                       >
                         <span className="title">{e.name}</span>
                       </Link>

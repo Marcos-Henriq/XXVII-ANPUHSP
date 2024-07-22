@@ -11,7 +11,9 @@ body{
 }
 
 .text-default {
-    padding: 0.2rem 0;
+    padding: 0rem 0;
+    font-weight: 500;
+    color:#3A4748;
 }
 
 .bigtitle {
@@ -35,7 +37,7 @@ body{
 
 .button {
     display: flex;
-    padding: 18px 24px;
+    padding: .5rem 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -44,7 +46,7 @@ body{
     margin: 0 !important;
     border-radius: 24px;
     text-transform: none;
-    font-size: 22px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -61,4 +63,10 @@ body{
     height: 150px;
     background: url(/images/banner.png);
     background-size: cover;
+}
+
+.item-horario{
+    background-color: #f6f6f6;
+    border-radius: 2rem;
+    padding: 0rem 0.5rem;
 }

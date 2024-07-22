@@ -24,14 +24,17 @@ interface MesaRedonda {
 interface Props {
   params: {
     id: string;
+    beforePage: string;
+    nameBeforePage: string
   };
 }
 
-// Assegure-se de que a importação do JSON está correta
 const mesasRedondas = mesasRedondasData.mesasRedondas as MesaRedonda[];
 
 export default function MesaRedondaDetail({ params }: Props) {
-  const id = parseInt(params.id, 10); // Converta o ID para número se necessário
+  const id = parseInt(params.id, 10); 
+  const beforePage = params.beforePage;
+  const nameBeforePage = params.nameBeforePage;
   const mesaRedonda = mesasRedondas.find((mesa) => mesa.id === id) || null;
 
   if (!mesaRedonda) {
@@ -48,8 +51,8 @@ export default function MesaRedondaDetail({ params }: Props) {
         <Link underline="hover" color="inherit" href="/">
           Página inicial
         </Link>
-        <Link underline="hover" color="inherit" href="/programacao/agenda">
-          Agenda
+        <Link underline="hover" color="inherit" href={`/programacao/${beforePage}`}>
+          {nameBeforePage}
         </Link>
         <Typography color="text.primary">Mesa Redonda - {mesaRedonda.id}</Typography>
       </Breadcrumbs>
