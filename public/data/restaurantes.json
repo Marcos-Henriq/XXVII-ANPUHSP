@@ -1,0 +1,242 @@
+{
+  "restaurantes_universitarios": [
+    {
+      "nome": "Restaurante Universitário",
+      "endereco": "Av. Érico Veríssimo, 50",
+      "horarios": {
+        "cafe_da_manha": "07:00 às 08:30",
+        "almoco": "10:30 às 14:00",
+        "jantar": "17:30 às 19:45"
+      }
+    },
+    {
+      "nome": "Restaurante Administrativo",
+      "endereco": "Rua Bernardo Sayão, 198",
+      "horarios": {
+        "almoco": "11:30 às 14:00",
+        "jantar": "17:30 às 19:00"
+      }
+    },
+    {
+      "nome": "Restaurante da Saturnino",
+      "endereco": "Rua Saturnino de Brito, 314",
+      "descricao": "Cardápio vegetariano",
+      "horarios": {
+        "almoco": "11:00 às 14:00",
+        "jantar": "17:30 às 19:00"
+      }
+    }
+  ],
+  "campus": [
+    {
+      "nome": "Cantina do Bello",
+      "endereco": "Rua Sérgio Buarque de Holanda, 911 – Cidade Universitária",
+      "descricao": "Próximo ao Instituto de Biologia",
+      "horarios": {
+        "segundaSexta":"07:30 às 22:00"
+      },
+      "ofertas": "Cafés, lanches, sucos, salgados, almoço por quilo"
+    },
+    {
+      "nome": "Lanchonete do IEL",
+      "endereco": "Rua Sérgio Buarque de Holanda, 571",
+      "descricao": "Próximo ao IFCH",
+      "ofertas": "Cafés, sucos, lanches, salgados"
+    },
+    {
+      "nome": "Restaurante Container da FE",
+      "endereco": "Rua Bertrand Russell, 801",
+      "horarios": {
+        "segundaSexta":"07:00 às 22:00"
+      },
+      "ofertas": "Cafés, lanches, sucos, salgados, refeição"
+    },
+    {
+      "nome": "Casa de lanches IE",
+      "endereco": "Av. Albert Einstein, 1351",
+      "ofertas": "Cafés, lanches, salgados"
+    },
+    {
+      "nome": "Restaurante Espaço Adunicamp",
+      "endereco": "Av. Érico Veríssimo, 1479",
+      "ofertas": "Cafés, lanches, refeição por quilo (almoço)"
+    }
+  ],
+  "proximidades_unicamp": [
+    {
+      "nome": "Restaurante Bardana",
+      "endereco": "Av. Dr. Romeu Tórtima (“Avenida 1”), 1500",
+      "horarios": {
+        "segundaSexta":"11:00 às 22:00"
+      },
+      "ofertas": "Comida por quilo"
+    },
+    {
+      "nome": "Restaurante Del Sol",
+      "endereco": "Rua Roxo Moreira, 1648",
+      "horarios": {
+        "segundaSexta":"11:00 às 14:30"
+      },
+      "ofertas": "Comida por quilo"
+    },
+    {
+      "nome": "Restaurante Moriá",
+      "endereco": "Rua Roxo Morira, 1790",
+      "horarios": {
+        "segundaSexta":"09:30 às 14:30"
+      },
+      "ofertas": "Comida por quilo"
+    },
+    {
+      "nome": "Restaurante Palatus",
+      "endereco": "Rua Maria Tereza Dias da Silva, 304",
+      "horarios": {
+        "segundaSexta": "11:00 às 14:30"
+      },
+      "ofertas": "Comida por quilo"
+    },
+    {
+      "nome": "Restaurante e Pizzaria Di Capri",
+      "endereco": "Rua Maria Tereza Dias da Silva, 514",
+      "horarios": {
+        "almoco": "11:00 às 14:00",
+        "jantar": "18:00 às 23:00"
+      },
+      "ofertas": "Almoço, pizzas, caldos"
+    }
+  ],
+  "barao_geraldo": [
+    {
+      "nome": "Namastê Salad",
+      "endereco": "Rua José Martins, 751",
+      "descricao": "Próximo à Praça do Coco",
+      "horarios": {
+        "segundaSexta":  "11:30 às 14:30"
+      },
+      "ofertas": "Buffet com saladas, panquecas, risotos, grelhados, sucos. Opções vegetarianas."
+    },
+    {
+      "nome": "ReÚne Comida e Cultura",
+      "endereco": "Rua Manoel Antunes Novo, 481",
+      "horarios": {
+        "segundaQuarta": "11:00 às 14:30",
+        "quintaDomingo": "11:00 às 22:00"
+      },
+      "ofertas": "Lanches, PF, legumes grelhados. Opções vegetarianas e veganas."
+    },
+    {
+      "nome": "Bagdá Cozinha Árabe",
+      "endereco": "Rua Maria Ferreira Antunes, 116",
+      "horarios": {
+        "almoco": "11:30 às 14:30",
+        "jantar": "18:00 às 22:00"
+      },
+      "ofertas": "Comida por quilo (almoço), lanches, esfihas, sucos, doces."
+    },
+    {
+      "nome": "Casa da Moqueca",
+      "endereco": "Rua Vitórino Antunes, 160",
+      "horarios": {
+        "segundaSexta":  "11:00 às 23:00"
+      },
+      "ofertas": "Refeições à la carte"
+    },
+    {
+      "nome": "Raízes Zen",
+      "endereco": "Rua Antônio Pierozzi, 94",
+      "horarios": {
+        "segundaSexta":  "11:30 às 15:30"
+      },
+      "ofertas": "Comida por quilo, opções vegetarianas e veganas."
+    },
+    {
+      "nome": "GUACO Culinária Mexicana",
+      "endereco": "Av. Albino J. B. de Oliveira, 1615",
+      "horarios": {
+        "segundaSexta":  "11:00 às 23:00"
+      },
+      "ofertas": "Saladas, burritos, tacos, sucos."
+    },
+    {
+      "nome": "De La Rua Mexican Burritos",
+      "endereco": "Av. Dr. Romeu Tórtima (“Avenida 1”), 1101",
+      "horarios": {
+        "segundaSexta": "11:00 às 23:00"
+      },
+      "ofertas": "Burritos, tacos, quesadillas."
+    },
+    {
+      "nome": "Hondai Japanese",
+      "endereco": "Av. Dr. Romeu Tórtima (“Avenida 1”), 334",
+      "horarios": {
+        "almoco": "11:30 às 15:00",
+        "jantar": "18:30 às 23:00"
+      },
+      "ofertas": "Comida japonesa, à la carte ou buffet."
+    },
+    {
+      "nome": "Padaria Alemã",
+      "endereco": "Av. Dr. Romeu Tórtima (“Avenida 1”), 285",
+      "horarios": {
+        "segundaSexta": "07:00 às 21:00"
+      },
+      "ofertas": "Café da manhã, pães, doces, lanches, cafés."
+    },
+    {
+      "nome": "Confeitaria Romana",
+      "endereco": "Rua Maria Tereza Dias da Silva, 790",
+      "horarios": {
+        "segundaSexta":  "06:00 às 22:00 (pode variar)"
+      },
+      "ofertas": "Café da manhã, pães, doces, lanches, cafés. Comida por quilo no horário do almoço, buffet de sopas à noite."
+    }
+  ],
+
+  "happy_hour": [
+    {
+      "nome": "Eskina Bar",
+      "endereco": "Rua Horácio Leonardi, 12",
+      "bairro": "Barão Geraldo",
+      "horarios": {
+        "segundaSexta":  "16:30 às 23:30"
+      }
+    },
+    {
+      "nome": "Estação Barão",
+      "endereco": "Rua Horácio Leonardi, 76",
+      "bairro": "Barão Geraldo",
+      "horarios": {
+        "segundaSexta":  "11:00 às 00:00"
+      }
+    },
+    {
+      "nome": "Candreva Barão",
+      "endereco": "Av. Albino J. B. de Oliveira, 1240",
+      "horarios": {
+        "almoco": "11:00 às 15:00",
+        "jantar": "16:00 às 23:00"
+      }
+    },
+    {
+      "nome": "Buteco do Jair",
+      "endereco": "Rua Maria Tereza Dias da Silva, 664",
+      "horarios": {
+        "segundaSexta":  "17:00 às 00:00"
+      }
+    },
+    {
+      "nome": "Confra Empório Bar",
+      "endereco": "Rua José Martins, 503",
+      "horarios": {
+        "segundaSexta":  "13:00 às 23:00"
+      }
+    },
+    {
+      "nome": "STOUT Café, Cultura & Bar",
+      "endereco": "Av. Santa Isabel, 1015",
+      "horarios": {
+        "quartaDomingo":  "17:00 às 01:00"
+      }
+    }
+  ]
+}

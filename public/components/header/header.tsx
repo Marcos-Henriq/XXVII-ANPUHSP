@@ -4,11 +4,21 @@
 import React from "react";
 import styles from "./header.module.css";
 import Link from "next/link";
-import { Menu as MenuIcon, ExpandLess, ExpandMore } from "@mui/icons-material";
+import {
+  Menu as MenuIcon,
+  ExpandLess,
+  ExpandMore,
+  Home,
+  StartOutlined,
+  HomeMax,
+  DateRange,
+} from "@mui/icons-material";
 import {
   List,
   ListItem,
   ListItemText,
+  ListItemButton,
+  ListItemIcon,
   Drawer,
   Collapse,
   Slide,
@@ -16,8 +26,10 @@ import {
   AppBar,
   Typography,
   IconButton,
+  Divider,
 } from "@mui/material";
 import useScrollTrigger from "@mui/material/useScrollTrigger";
+import { Inbox } from "@mui/icons-material";
 import Image from "next/image";
 
 interface HeaderProps {
@@ -43,54 +55,90 @@ export default function Header({ title }: HeaderProps) {
         <p>XXVII Encontro Estadual de História</p>
       </div>
       <List className={styles.listComponent}>
-        <ListItem key="Inicio">
-          <Link href="/" className={styles.link}>
-            Inicio
-          </Link>
+        <ListItem disablePadding className={styles.navItemMenu}>
+          <ListItemButton component="a" href="/">
+            {/* <ListItemIcon>
+            </ListItemIcon> */}
+            <ListItemText primary="Início" className={styles.link} />
+          </ListItemButton>
         </ListItem>
-
-        <ListItem
+        <Divider/>
+        <ListItem className={open ? styles.onFocus : styles.navItemMenu}
           onClick={() => {
             setOpen(!open);
           }}
         >
-          <ListItemText primary="Programação" />
-          {open ? <ExpandLess /> : <ExpandMore />}
+          <ListItemText primary="Programação" className={styles.link} color={styles.link}/>
+          {open ? <ExpandLess color="primary"/> : <ExpandMore color="primary"/>}
         </ListItem>
+        <Divider/>
         <Collapse in={open} timeout="auto" unmountOnExit>
-          <List component="div" disablePadding>
-            <ListItem key="Agenda" className={styles.nested}>
-              <Link className={styles.link} href="/programacao/agenda">
-                Agenda
-              </Link>
+          <List component="div" disablePadding sx={{background:"#333"}}>
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/agenda">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText primary="Agenda" className={styles.link} />
+              </ListItemButton>
             </ListItem>
-
-            <ListItem key="Mesas Redondas" className={styles.nested}>
-              <Link className={styles.link} href="/programacao/mesas_redondas">
-                Mesas Redondas
-              </Link>
+            <Divider/>
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/mesa-redonda">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Mesas redondas"
+                  className={styles.link}
+                />
+              </ListItemButton>
             </ListItem>
-
-            {/* Adicione outros itens conforme necessário */}
+            <Divider/>
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/mini-cursos">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Minicursos"
+                  className={styles.link}
+                />
+              </ListItemButton>
+            </ListItem>
           </List>
         </Collapse>
-
-        <ListItem key="Instruções de Participação" className={styles.nested}>
-          <Link className={styles.link} href="/instrucao_encontro">
-            Instruções de Participação
-          </Link>
+        <Divider/>
+        <ListItem disablePadding className={styles.navItemMenu}>
+          <ListItemButton component="a" href="/instrucao_encontro">
+            {/* <ListItemIcon>
+            </ListItemIcon> */}
+            <ListItemText
+              primary="Instruções de Participação"
+              className={styles.link}
+            />
+          </ListItemButton>
         </ListItem>
-
-        <ListItem key="Contato" className={styles.nested}>
-          <Link className={styles.link} href="/contato">
-            Contato
-          </Link>
+        <Divider/>
+        <ListItem disablePadding className={styles.navItemMenu}>
+          <ListItemButton component="a" href="/contato">
+            {/* <ListItemIcon>
+            </ListItemIcon> */}
+            <ListItemText primary="Contato" className={styles.link} />
+          </ListItemButton>
         </ListItem>
-
-        <ListItem key="Apoio" className={styles.nested}>
-          <Link className={styles.link} href="/apoio">
-            Apoio
-          </Link>
+        <Divider/>
+        <ListItem disablePadding className={styles.navItemMenu}>
+          <ListItemButton component="a" href="/locais-alimentacao">
+            {/* <ListItemIcon>
+            </ListItemIcon> */}
+            <ListItemText primary="Locais de alimentação" className={styles.link} />
+          </ListItemButton>
+        </ListItem>
+        <Divider/>
+        <ListItem disablePadding className={styles.navItemMenu}>
+          <ListItemButton component="a" href="/apoio">
+            {/* <ListItemIcon>
+            </ListItemIcon> */}
+            <ListItemText primary="Apoio" className={styles.link} />
+          </ListItemButton>
         </ListItem>
       </List>
     </div>

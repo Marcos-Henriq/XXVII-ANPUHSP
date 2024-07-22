@@ -1,5 +1,5 @@
 import PageDefault from "@/public/components/pageContainer/pageContainer";
-import { Button, Container } from "@mui/material";
+import { Button, Container, Grid } from "@mui/material";
 import Image from "next/image";
 import "./globals.css";
 import { Row, Col } from "react-bootstrap";
@@ -38,7 +38,11 @@ export default function Home() {
           </p>
           <Row>
             <Col sm={12} md={6} lg={4}>
-              <Link href="https://www.encontro2024.sp.anpuh.org" passHref className="text-decoration-none">
+              <Link
+                href="https://www.encontro2024.sp.anpuh.org"
+                passHref
+                className="text-decoration-none"
+              >
                 <Button variant="contained" className="button w-100">
                   Saiba mais
                 </Button>

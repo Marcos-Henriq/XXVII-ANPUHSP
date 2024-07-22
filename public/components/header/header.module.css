@@ -1,50 +1,63 @@
 /* styles.css */
-@import url('/app/globals.css');
+@import url("/app/globals.css");
 
 .root {
-    display: flex;
-    flex-grow: 1;
-  }
-  
-  .menuButton {
-    margin-right: 16px; /* Ajuste o valor conforme necessário */
-  }
-  
+  display: flex;
+  flex-grow: 1;
+}
+
+.menuButton {
+  margin-right: 16px; /* Ajuste o valor conforme necessário */
+}
+
+.title {
+  flex-grow: 1;
+}
+
+@media (max-width: 328px) {
   .title {
-    flex-grow: 1;
+    font-size: 1rem;
   }
-  
-  @media (max-width: 328px) {
-    .title {
-      font-size: 1rem;
-    }
-  }
-  
-  .list {
-    width: 250px;
-  }
-  
-  .fullList {
-    width: auto;
-  }
-  
-  .paper {
-    background-color: #DBCFBF;
-    color: white;
-  }
-  
-  .menuTitle {
-    color: black;
-    background-color: #F4B303;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem .8rem;
-    row-gap: 1rem;
-  }
-  
-  .nested {
-    padding-left: 16px; /* Ajuste o valor conforme necessário */
-  }
-  
+}
+
+.list {
+  width: 250px;
+}
+
+.fullList {
+  width: auto;
+}
+
+.paper {
+  background-color: #1b1b1a;
+  color: white;
+}
+
+.menuTitle {
+  color: black;
+  background-color: #f4b303;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.8rem;
+  row-gap: 1rem;
+}
+
+.nested {
+  padding-left: 16px; /* Ajuste o valor conforme necessário */
+}
+
+.link {
+  color: #f4b303;
+}
+
+.navItemMenu:hover{
+  background-color: #333333;
+  color: #f4b303;
+}
+
+.onFocus{
+  background-color: #333333;
+  color: #f4b303;
+}
