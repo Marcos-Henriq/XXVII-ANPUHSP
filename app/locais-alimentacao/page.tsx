@@ -27,9 +27,9 @@ interface HorarioFuncionamento {
   cafe_da_manha?: string;
   almoco: string;
   jantar: string;
-  segundaQuarta? : string;
-  quintaDomingo? : string;
-  segundaSexta? : string
+  segundaQuarta?: string;
+  quintaDomingo?: string;
+  segundaSexta?: string;
 }
 
 interface Restaurante {
@@ -57,9 +57,16 @@ const {
 } = restaurantesData as RestaurantesData;
 
 const renderHorarios = (horarios?: HorarioFuncionamento) => {
-  if (!horarios) return (<p className="text-default">Horarios indisponíveis</p>);
+  if (!horarios) return <p className="text-default">Horarios indisponíveis</p>;
 
-  const { cafe_da_manha, almoco, jantar, segundaQuarta, quintaDomingo, segundaSexta } = horarios;
+  const {
+    cafe_da_manha,
+    almoco,
+    jantar,
+    segundaQuarta,
+    quintaDomingo,
+    segundaSexta,
+  } = horarios;
   return (
     <List
       sx={{
@@ -214,7 +221,13 @@ const renderRestaurantes = (restaurantes: Restaurante[], category: string) => {
                   </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  {renderHorarios(restaurante.horarios)}
+                  {typeof restaurante.horarios === "string" ? (
+                    <Typography variant="body1" component="p">
+                      {restaurante.horarios}
+                    </Typography>
+                  ) : (
+                    renderHorarios(restaurante.horarios)
+                  )}
                 </AccordionDetails>
               </Accordion>
             </Paper>
