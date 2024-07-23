@@ -1,17 +1,12 @@
 "use client";
 
 import React from "react";
-import {
-  Paper,
-  List,
-  ListItem,
-  ListItemAvatar,
-  Avatar,
-} from "@mui/material";
+import { Paper, List, ListItem, ListItemAvatar, Avatar } from "@mui/material";
 import { Col, Container, Row } from "react-bootstrap";
 import { AccessAlarm } from "@mui/icons-material";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
 interface ScheduleEvent {
   schedule: string;
@@ -38,7 +33,7 @@ const Schedule: React.FC<Event> = ({ id, dayWeek, date, schedules }) => {
             <ListItem key={index} sx={{ display: "flex", alignItems: "start" }}>
               <ListItemAvatar>
                 <Avatar sx={{ backgroundColor: "#F4B303" }}>
-                  <AccessAlarm color="secondary" fontSize="medium" />
+                  <AccessAlarm color="secondary" fontSize="large" />
                 </Avatar>
               </ListItemAvatar>
               <div className="d-flex flex-column align-center justify-center">
@@ -49,9 +44,12 @@ const Schedule: React.FC<Event> = ({ id, dayWeek, date, schedules }) => {
                       <Link
                         key={idx}
                         className="link"
-                        href={`/programacao/mesa-redonda/${e.id}/${'/agenda'}/${'Agenda'}`}
+                        href={`/programacao/mesa-redonda/${
+                          e.id
+                        }/${"/agenda"}/${"Agenda"}`}
                       >
                         <span className="title">{e.name}</span>
+                        <OpenInNewIcon />
                       </Link>
                     ))}
                   </Row>

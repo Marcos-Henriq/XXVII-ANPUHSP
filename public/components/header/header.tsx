@@ -41,6 +41,7 @@ export default function Header({ title }: HeaderProps) {
   const isBaseItem = baseItem.includes(title);
   const [state, setState] = React.useState(false);
   const [open, setOpen] = React.useState(isBaseItem ? false : true);
+  const [open2, setOpen2] = React.useState(isBaseItem ? false : true);
   const trigger = useScrollTrigger();
 
   const toggleDrawer =
@@ -111,7 +112,7 @@ export default function Header({ title }: HeaderProps) {
             {/* <ListItemIcon>
             </ListItemIcon> */}
             <ListItemText
-              primary="Instruções de Participação"
+              primary="Seminários Temáticos"
               className={styles.link}
             />
           </ListItemButton>
@@ -133,6 +134,81 @@ export default function Header({ title }: HeaderProps) {
           </ListItemButton>
         </ListItem>
         <Divider/>
+        <ListItem className={open2 ? styles.onFocus : styles.navItemMenu}
+          onClick={() => {
+            setOpen2(!open2);
+          }}
+        >
+          <ListItemText primary="Instruções de participação" className={styles.link} color={styles.link}/>
+          {open2 ? <ExpandLess color="primary"/> : <ExpandMore color="primary"/>}
+        </ListItem>
+        <Divider/>
+        <Collapse in={open2} timeout="auto" unmountOnExit>
+          <List component="div" disablePadding sx={{background:"#333"}}>
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/agenda">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText primary="Coordenação de Seminário Temático" className={styles.link} />
+              </ListItemButton>
+            </ListItem>
+            <Divider/>
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/mesa-redonda">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Coordenação de Minicurso"
+                  className={styles.link}
+                />
+              </ListItemButton>
+            </ListItem>
+            <Divider/>
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/mini-cursos">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Apresentador de Trabalho"
+                  className={styles.link}
+                />
+              </ListItemButton>
+            </ListItem>
+            <Divider/>
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/mini-cursos">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Apresentador de Pôster"
+                  className={styles.link}
+                />
+              </ListItemButton>
+            </ListItem>
+            <Divider/>
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/mini-cursos">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Participação em Minicurso/Oficina"
+                  className={styles.link}
+                />
+              </ListItemButton>
+            </ListItem>
+            <Divider/>
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/mini-cursos">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Lançamento de Livros"
+                  className={styles.link}
+                />
+              </ListItemButton>
+            </ListItem>
+          </List>
+        </Collapse>
         <ListItem disablePadding className={styles.navItemMenu}>
           <ListItemButton component="a" href="/apoio">
             {/* <ListItemIcon>

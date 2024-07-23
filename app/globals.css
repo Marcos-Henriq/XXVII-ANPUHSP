@@ -54,6 +54,9 @@ body{
     text-decoration: none;
     color: #1b1b1a;
 }
+.text-link{
+    color: #3A3AC5;
+}
 
 .scheduleContainer{
     border-left: 3px solid #F4B303;

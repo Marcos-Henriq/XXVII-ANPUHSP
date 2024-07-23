@@ -20,6 +20,7 @@ import {
 import restaurantesData from "@/public/data/restaurantes.json";
 import PageDefault from "@/public/components/pageContainer/pageContainer";
 import { AccessAlarm } from "@mui/icons-material";
+import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Row } from "react-bootstrap";
 
@@ -186,9 +187,11 @@ const renderRestaurantes = (restaurantes: Restaurante[], category: string) => {
                 <a
                   href={googleMapsUrl}
                   target="_blank"
+                  className="text-link d-flex gap-1"
                   rel="noopener noreferrer"
                 >
                   {restaurante.endereco}
+                  <OpenInNewIcon />
                 </a>
               </Typography>
               {restaurante.descricao && (
