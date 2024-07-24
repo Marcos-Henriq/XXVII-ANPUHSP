@@ -40,8 +40,8 @@ export default function Header({ title }: HeaderProps) {
   const baseItem = ["Início", "Instruções de Participação", "Contato", "Apoio"];
   const isBaseItem = baseItem.includes(title);
   const [state, setState] = React.useState(false);
-  const [open, setOpen] = React.useState(isBaseItem ? false : true);
-  const [open2, setOpen2] = React.useState(isBaseItem ? false : true);
+  const [open, setOpen] = React.useState(isBaseItem ? true : false);
+  const [open2, setOpen2] = React.useState(isBaseItem ? true : false);
   const trigger = useScrollTrigger();
 
   const toggleDrawer =
@@ -63,18 +63,27 @@ export default function Header({ title }: HeaderProps) {
             <ListItemText primary="Início" className={styles.link} />
           </ListItemButton>
         </ListItem>
-        <Divider/>
-        <ListItem className={open ? styles.onFocus : styles.navItemMenu}
+        <Divider />
+        <ListItem
+          className={open ? styles.onFocus : styles.navItemMenu}
           onClick={() => {
             setOpen(!open);
           }}
         >
-          <ListItemText primary="Programação" className={styles.link} color={styles.link}/>
-          {open ? <ExpandLess color="primary"/> : <ExpandMore color="primary"/>}
+          <ListItemText
+            primary="Programação"
+            className={styles.link}
+            color={styles.link}
+          />
+          {open ? (
+            <ExpandLess color="primary" />
+          ) : (
+            <ExpandMore color="primary" />
+          )}
         </ListItem>
-        <Divider/>
+        <Divider />
         <Collapse in={open} timeout="auto" unmountOnExit>
-          <List component="div" disablePadding sx={{background:"#333"}}>
+          <List component="div" disablePadding sx={{ background: "#333" }}>
             <ListItem disablePadding className={styles.navItemMenu}>
               <ListItemButton component="a" href="/programacao/agenda">
                 {/* <ListItemIcon>
@@ -82,7 +91,7 @@ export default function Header({ title }: HeaderProps) {
                 <ListItemText primary="Agenda" className={styles.link} />
               </ListItemButton>
             </ListItem>
-            <Divider/>
+            <Divider />
             <ListItem disablePadding className={styles.navItemMenu}>
               <ListItemButton component="a" href="/programacao/mesa-redonda">
                 {/* <ListItemIcon>
@@ -93,31 +102,28 @@ export default function Header({ title }: HeaderProps) {
                 />
               </ListItemButton>
             </ListItem>
-            <Divider/>
+            <Divider />
             <ListItem disablePadding className={styles.navItemMenu}>
-              <ListItemButton component="a" href="/programacao/mini-cursos">
+              <ListItemButton component="a" href="/instrucao_encontro">
                 {/* <ListItemIcon>
-                </ListItemIcon> */}
+            </ListItemIcon> */}
                 <ListItemText
-                  primary="Minicursos"
+                  primary="Seminários Temáticos"
                   className={styles.link}
                 />
               </ListItemButton>
             </ListItem>
+            <Divider />
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/mini-cursos">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText primary="Minicursos" className={styles.link} />
+              </ListItemButton>
+            </ListItem>
           </List>
         </Collapse>
-        <Divider/>
-        <ListItem disablePadding className={styles.navItemMenu}>
-          <ListItemButton component="a" href="/instrucao_encontro">
-            {/* <ListItemIcon>
-            </ListItemIcon> */}
-            <ListItemText
-              primary="Seminários Temáticos"
-              className={styles.link}
-            />
-          </ListItemButton>
-        </ListItem>
-        <Divider/>
+        <Divider />
         <ListItem disablePadding className={styles.navItemMenu}>
           <ListItemButton component="a" href="/contato">
             {/* <ListItemIcon>
@@ -125,34 +131,49 @@ export default function Header({ title }: HeaderProps) {
             <ListItemText primary="Contato" className={styles.link} />
           </ListItemButton>
         </ListItem>
-        <Divider/>
+        <Divider />
         <ListItem disablePadding className={styles.navItemMenu}>
           <ListItemButton component="a" href="/locais-alimentacao">
             {/* <ListItemIcon>
             </ListItemIcon> */}
-            <ListItemText primary="Locais de alimentação" className={styles.link} />
+            <ListItemText
+              primary="Locais de alimentação"
+              className={styles.link}
+            />
           </ListItemButton>
         </ListItem>
-        <Divider/>
-        <ListItem className={open2 ? styles.onFocus : styles.navItemMenu}
+        <Divider />
+        <ListItem
+          className={open2 ? styles.onFocus : styles.navItemMenu}
           onClick={() => {
             setOpen2(!open2);
           }}
         >
-          <ListItemText primary="Instruções de participação" className={styles.link} color={styles.link}/>
-          {open2 ? <ExpandLess color="primary"/> : <ExpandMore color="primary"/>}
+          <ListItemText
+            primary="Instruções de participação"
+            className={styles.link}
+            color={styles.link}
+          />
+          {open2 ? (
+            <ExpandLess color="primary" />
+          ) : (
+            <ExpandMore color="primary" />
+          )}
         </ListItem>
-        <Divider/>
+        <Divider />
         <Collapse in={open2} timeout="auto" unmountOnExit>
-          <List component="div" disablePadding sx={{background:"#333"}}>
+          <List component="div" disablePadding sx={{ background: "#333" }}>
             <ListItem disablePadding className={styles.navItemMenu}>
               <ListItemButton component="a" href="/programacao/agenda">
                 {/* <ListItemIcon>
                 </ListItemIcon> */}
-                <ListItemText primary="Coordenação de Seminário Temático" className={styles.link} />
+                <ListItemText
+                  primary="Coordenação de Seminário Temático"
+                  className={styles.link}
+                />
               </ListItemButton>
             </ListItem>
-            <Divider/>
+            <Divider />
             <ListItem disablePadding className={styles.navItemMenu}>
               <ListItemButton component="a" href="/programacao/mesa-redonda">
                 {/* <ListItemIcon>
@@ -163,7 +184,7 @@ export default function Header({ title }: HeaderProps) {
                 />
               </ListItemButton>
             </ListItem>
-            <Divider/>
+            <Divider />
             <ListItem disablePadding className={styles.navItemMenu}>
               <ListItemButton component="a" href="/programacao/mini-cursos">
                 {/* <ListItemIcon>
@@ -174,9 +195,9 @@ export default function Header({ title }: HeaderProps) {
                 />
               </ListItemButton>
             </ListItem>
-            <Divider/>
+            <Divider />
             <ListItem disablePadding className={styles.navItemMenu}>
-              <ListItemButton component="a" href="/programacao/mini-cursos">
+              <ListItemButton component="a" href="/instrucoes/apresentador-poster">
                 {/* <ListItemIcon>
                 </ListItemIcon> */}
                 <ListItemText
@@ -185,7 +206,7 @@ export default function Header({ title }: HeaderProps) {
                 />
               </ListItemButton>
             </ListItem>
-            <Divider/>
+            <Divider />
             <ListItem disablePadding className={styles.navItemMenu}>
               <ListItemButton component="a" href="/programacao/mini-cursos">
                 {/* <ListItemIcon>
@@ -196,7 +217,7 @@ export default function Header({ title }: HeaderProps) {
                 />
               </ListItemButton>
             </ListItem>
-            <Divider/>
+            <Divider />
             <ListItem disablePadding className={styles.navItemMenu}>
               <ListItemButton component="a" href="/programacao/mini-cursos">
                 {/* <ListItemIcon>
