@@ -80,7 +80,7 @@ export default function MesaRedondaDetail({ params }: Props) {
       <ul>
         {mesaRedonda.palestrantes.map((palestrante, index) => (
           <li key={index}>
-            <strong>{palestrante.nome}</strong> ({palestrante.afiliacao}):{" "}
+            <strong>{palestrante.nome}</strong> ({palestrante.afiliacao}):{"-"}
             {palestrante.tema}
           </li>
         ))}
