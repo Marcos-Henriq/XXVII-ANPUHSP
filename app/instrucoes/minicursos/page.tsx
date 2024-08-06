@@ -31,42 +31,214 @@ export default function Minicurso() {
             Ensino Fundamental e Médio, alunos(as) de graduação e pós-graduação
             e devem, preferencialmente, remeter-se ao tema geral do Encontro.
           </p>
+          <List className="d-flex flex-column flex-start gap-3 px-4">
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                Serão oferecidos cursos, com seis horas-aula, distribuídas em
+                sessões de duas horas (das 8h00 às 10h00), nos dias 03, 04 e 05
+                de setembro;
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                Serão analisadas pela Comissão Científica preliminar e
+                divulgados a partir de 08 de abril de 2024, que os selecionarão
+                considerando os critérios de qualidade e relevância acadêmica da
+                proposta e experiência profissional dos(as) proponentes e
+                viabilidade para o formato virtual.
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                O curso será realizado com o mínimo de 10 inscritos(a);
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                Para cada minicurso serão abertas 30 vagas que poderão ser
+                ampliadas, havendo comum acordo entre a Comissão Organizadora e
+                o(s) professor(es).
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                O curso deverá ser ministrado exclusivamente pelos(a)
+                proponentes;
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                Para evitar transtornos operacionais não será devolvida a taxa
+                de inscrição de Minicursos que não se viabilizarem. A taxa será
+                considerada como pagamento de inscrição no Encontro.
+              </Typography>
+            </ListItem>
+          </List>
           <p className="text-default">
-            <b>
-              Para inscrever-se em minicurso, o interessado deve escolher 3
-              (três) entre as opções listadas na página do evento, classificadas
-              em 1ª, 2ª e 3ª opções. Caso o minicurso escolhido em 1ª opção seja
-              cancelado por não atingir o número mínimo exigido de participantes
-              (10), o(a) inscrito(a) será realocado(a) no minicurso escolhido em
-              2ª opção, e assim sucessivamente.
-            </b>
+            Observação: a cada minicurso caberá um pró-labore (valor a ser
+            estipulado)
           </p>
           <p className="text-default">
-            <b>Não haverá devolução do valor de inscrição.</b>
+            CONDIÇÕES PARA APRESENTAÇÃO DE PROPOSTAS DE MINICURSOS:
+          </p>
+          <List className="d-flex flex-column flex-start gap-3 px-4">
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                Os(As) proponentes de Minicurso deverão obrigatoriamente ser
+                associados(as) da ANPUH, estarem em dia com as anuidades de 2022
+                e 2023 no ato da inscrição, terem titulação mínima de mestre e
+                ter experiência docente
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                Poderá ser feita por 1 ou 2 ministrantes
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                No caso de serem 2 ministrantes, cada um deve fazer a inscrição
+                individualmente no sistema.
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                O procedimento é necessário para o sistema gerar duas formas
+                independentes de acesso à Área do(a) Inscrito(a).
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                Um Código do Trabalho será gerado à primeira pessoa que realizar
+                a inscrição. Para que isso ocorra, no campo Tipo de Submissão,
+                este(a) primeiro(a) inscrito(a) deve escolher a opção Coautoria
+                - primeira inscrição do trabalho - e seguir normalmente com sua
+                inscrição. Ao final do processo, um Código do Trabalho será
+                gerado. Ao(A) próximo(a) a se inscrever basta escolher a opção
+                Coautoria - trabalho já inscrito e informar o Código do Trabalho
+                gerado ao(a) primeiro(a) inscrito(a).
+              </Typography>
+            </ListItem>
+          </List>
+          <p className="text-default">
+            AS PROPOSTAS DE MINICURSO DEVERÃO INDICAR:
+          </p>
+          <List className="d-flex flex-column flex-start gap-3 px-4">
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">título;</Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                nome(s) do(a)s proponente(s);
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                titulação e vínculo institucional do(a)s proponente(s);
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                ementa, forma de desenvolvimento do curso, objetivos, programa e
+                bibliografia;
+              </Typography>
+            </ListItem>
+          </List>
+          <p className="text-default">Observações gerais:</p>
+          <p className="text-default">
+            - Não haverá devolução do valor de inscrição, caso a proposta não
+            seja aprovada pela Comissão Científica ou não alcance o número
+            mínimo de 10 inscritos;
           </p>
           <p className="text-default">
-            O número máximo de participantes em cada minicurso é de 30, e a
-            preferência é dada ao(a) candidato(a) que se inscreveu primeiro.
+            - As pessoas responsáveis por coordenar os minicursos devem zelar
+            pela lista de presença, passando-a em sala para a assinatura dos
+            participantes, ou registrando a presença de outra forma.
           </p>
           <p className="text-default">
-            Os(As) que já estão inscritos(as) como proponente, apresentador(a)
-            de trabalho ou ouvinte podem fazer a inscrição em minicurso entrando
-            na Área do inscrito, com seu login e senha, onde encontrará a
-            opção Inscrição em minicurso. Essa opção abre um formulário para
-            escolha das 3 opções de minicursos e, depois de preenchido, gera
-            automaticamente um novo boleto para pagamento.
+            - Além da proposição de temas e do trabalho integrado na Comissão
+            Científica, caberá aos coordenadores:
           </p>
-          <p className="text-default">
-            As inscrições prévias para minicurso ocorrerão entre terça, 09 de
-            abril, e segunda, 19 de agosto.
-          </p>
-          <p className="text-default">
-            Para receber o certificado,
-            <b>
-              é necessário ter presença em 2 dos 3 dias do minicurso oferecido
-            </b>
-            .
-          </p>
+          <List className="d-flex flex-column flex-start gap-3 px-4">
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                Coordenação das atividades durante todo o Encontro.
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">
+                Elaboração de relatório de atividades.
+              </Typography>
+            </ListItem>
+          </List>
         </Row>
       </Container>
     </PageDefault>

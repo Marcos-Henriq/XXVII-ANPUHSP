@@ -21,51 +21,106 @@ export default function Livros() {
             Página inicial
           </Link>
           <Typography color="text.primary">
-            Instruções - Coordenação de Minicurso
+            Instruções - Lançamento de Livros
           </Typography>
         </Breadcrumbs>
-        <h2 className="mb-4">Coordenação de Minicurso</h2>
+        <h2 className="mb-4">Lançamento de Livros</h2>
         <Row className="w-100 py-4 px-2 container-instrucao">
           <p className="text-default">
-            Os Minicursos são espaços de atualização para professores(as) do
-            Ensino Fundamental e Médio, alunos(as) de graduação e pós-graduação
-            e devem, preferencialmente, remeter-se ao tema geral do Encontro.
+            Os lançamentos de livros constituem-se em importante atividade do
+            Encontro Estadual de História, pois permitem que os participantes
+            entrem em contato com pesquisas recém-publicadas e com autoras e
+            autores.
           </p>
           <p className="text-default">
-            <b>
-              Para inscrever-se em minicurso, o interessado deve escolher 3
-              entre as opções listadas na página do evento, classificadas em 1ª,
-              2ª e 3ª opções. Caso o minicurso escolhido em 1ª opção seja
-              cancelado por não atingir o número mínimo exigido de participantes
-              (10), o(a) inscrito(a) será realocado(a) no minicurso escolhido em
-              2ª opção, e assim sucessivamente.
-            </b>
+            Ao longo do evento, serão realizadas entrevistas com autoras e
+            autores para promover a divulgação das obras.
           </p>
           <p className="text-default">
-            <b>Não haverá devolução do valor de inscrição.</b>
+            As iniciativas acima apresentadas não substituirão o lançamento de
+            livros, que será realizado durante o evento em data e local a ser
+            definido.
           </p>
           <p className="text-default">
-            O número máximo de participantes em cada minicurso é de 30, e a
-            preferência é dada ao(a) candidato(a) que se inscreveu primeiro.
+            <b>Instruções gerais:</b>
+            <br />
+            Para inscrever-se basta apenas enviar um e-mail para{" "}
+            <b>anpuhsp@usp.br</b>
+            com o assunto Lançamento de livro e contendo os seguintes dados:
+          </p>
+          <List className="d-flex flex-column flex-start gap-3">
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">1</Typography>
+              <Typography className="text-default m-0">
+                Nome da(s) autoras e/ou do(s) autores, ou organizadoras e
+                organizadores e filiação institucional;
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">2</Typography>
+              <Typography className="text-default m-0">
+                Título do livro
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">3</Typography>
+              <Typography className="text-default m-0">Editora</Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">4</Typography>
+              <Typography className="text-default m-0">
+                Ano de publicação
+              </Typography>
+            </ListItem>
+            <ListItem
+              disablePadding
+              className="d-flex gap-2 justify-center"
+              sx={{ alignItems: "start" }}
+            >
+              <Typography className="text-default m-0">5</Typography>
+              <Typography className="text-default m-0">
+                Foto legível da capa
+              </Typography>
+            </ListItem>
+          </List>
+          <p className="text-default">
+            <b>O e-mail deve ser enviado até o dia 02 de agosto de 2024. </b>
           </p>
           <p className="text-default">
-            Os(As) que já estão inscritos(as) como proponente, apresentador(a)
-            de trabalho ou ouvinte podem fazer a inscrição em minicurso entrando
-            na Área do inscrito, com seu login e senha, onde encontrará a opção
-            Inscrição em minicurso. Essa opção abre um formulário para escolha
-            das 3 opções de minicursos e, depois de preenchido, gera
-            automaticamente um novo boleto para pagamento.
+            - As autoras e autores deverão fornecer um desconto de 30% na noite
+            do lançamento. A responsabilidade pelo transporte, venda e
+            recolhimento após a sessão de autógrafos será de inteira
+            responsabilidade da(s) autoras e/ou do(s) autores.
           </p>
           <p className="text-default">
-            As inscrições prévias para minicurso ocorrerão entre terça, 09 de
-            abril, e segunda, 19 de agosto.
+            - Para aqueles que desejarem fazer o lançamento de seu livro, a
+            estrutura fornecida pela organização do XXVII Encontro Estadual de
+            História será: mesa, cadeiras e divulgação no site.
           </p>
           <p className="text-default">
-            Para receber o certificado,
-            <b>
-              é necessário ter presença em 2 dos 3 dias do minicurso oferecido
-            </b>
-            .
+            - A relação de livros a serem lançados estará disponível neste
+            espaço no dia 09 de agosto de 2024.
+          </p>
+          <p className="text-default">
+            Não serão aceitos lançamentos de livros que o(s) autor(es) não
+            esteja(m) presente(s). Para tal, existirá o espaço da Feira de
+            Livros.
           </p>
         </Row>
       </Container>

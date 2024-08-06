@@ -175,7 +175,7 @@ export default function Header({ title }: HeaderProps) {
             </ListItem>
             <Divider />
             <ListItem disablePadding className={styles.navItemMenu}>
-              <ListItemButton component="a" href="/instrucoes/minicurso">
+              <ListItemButton component="a" href="/instrucoes/minicursos">
                 {/* <ListItemIcon>
                 </ListItemIcon> */}
                 <ListItemText
