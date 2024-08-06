@@ -63,7 +63,7 @@ export default function Oficina() {
             abril, e segunda, 19 de agosto.
           </p>
           <p className="text-default">
-            Para receber o certificado,{" "}
+            Para receber o certificado,
             <b>
               é necessário ter presença em 2 dos 3 dias do minicurso oferecido
             </b>
