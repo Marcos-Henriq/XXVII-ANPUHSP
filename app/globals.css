@@ -6,14 +6,14 @@
     padding: 0;
     font-family: "Roboto";
 }
-body{
+body {
     background-color: #f4f4f4;
 }
 
 .text-default {
     padding: 0rem 0;
     font-weight: 500;
-    color:#3A4748;
+    color: #3a4748;
 }
 
 .bigtitle {
@@ -37,7 +37,7 @@ body{
 
 .button {
     display: flex;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -54,22 +54,29 @@ body{
     text-decoration: none;
     color: #1b1b1a;
 }
-.text-link{
-    color: #3A3AC5;
+.text-link {
+    color: #3a3ac5;
 }
 
-.scheduleContainer{
-    border-left: 3px solid #F4B303;
+.scheduleContainer {
+    border-left: 3px solid #f4b303;
 }
 
-.thumbnail-event{
+.thumbnail-event {
     height: 150px;
     background: url(/images/banner.png);
     background-size: cover;
 }
 
-.item-horario{
+.item-horario {
     background-color: #f6f6f6;
     border-radius: 2rem;
     padding: 0rem 0.5rem;
+}
+
+.container-instrucao {
+    background-color: #f4f4f4;
+}
+.numbered-list {
+    list-style-type: decimal; /* Define a lista como numerada */
 }
