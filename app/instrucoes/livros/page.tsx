@@ -34,8 +34,8 @@ export default function Livros() {
           <p className="text-default">
             <b>
               Para inscrever-se em minicurso, o interessado deve escolher 3
-              (três) entre as opções listadas na página do evento, classificadas
-              em 1ª, 2ª e 3ª opções. Caso o minicurso escolhido em 1ª opção seja
+              entre as opções listadas na página do evento, classificadas em 1ª,
+              2ª e 3ª opções. Caso o minicurso escolhido em 1ª opção seja
               cancelado por não atingir o número mínimo exigido de participantes
               (10), o(a) inscrito(a) será realocado(a) no minicurso escolhido em
               2ª opção, e assim sucessivamente.
@@ -51,9 +51,9 @@ export default function Livros() {
           <p className="text-default">
             Os(As) que já estão inscritos(as) como proponente, apresentador(a)
             de trabalho ou ouvinte podem fazer a inscrição em minicurso entrando
-            na "Área do inscrito", com seu login e senha, onde encontrará a
-            opção "Inscrição em minicurso". Essa opção abre um formulário para
-            escolha das 3 opções de minicursos e, depois de preenchido, gera
+            na Área do inscrito, com seu login e senha, onde encontrará a opção
+            Inscrição em minicurso. Essa opção abre um formulário para escolha
+            das 3 opções de minicursos e, depois de preenchido, gera
             automaticamente um novo boleto para pagamento.
           </p>
           <p className="text-default">
