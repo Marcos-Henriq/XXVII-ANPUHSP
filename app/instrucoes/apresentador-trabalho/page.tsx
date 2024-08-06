@@ -105,8 +105,8 @@ export default function Trabalho() {
               sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">
-                No formulário de inscrição, ao clicar em "apresentador de
-                trabalho", três caixas podem ser visualizadas para cada opção de
+                No formulário de inscrição, ao clicar em apresentador de
+                trabalho, três caixas podem ser visualizadas para cada opção de
                 ST - uma para a inclusão do título do trabalho, outra para
                 inclusão do resumo e mais uma para inclusão do texto completo.
                 Pode ser utilizada qualquer fonte, pois o sistema a padronizará

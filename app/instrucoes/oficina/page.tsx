@@ -53,8 +53,8 @@ export default function Oficina() {
           <p className="text-default">
             Os(As) que já estão inscritos(as) como proponente, apresentador(a)
             de trabalho ou ouvinte podem fazer a inscrição em minicurso entrando
-            na "Área do inscrito", com seu login e senha, onde encontrará a
-            opção "Inscrição em minicurso". Essa opção abre um formulário para
+            na Área do inscrito, com seu login e senha, onde encontrará a
+            opção Inscrição em minicurso. Essa opção abre um formulário para
             escolha das 3 opções de minicursos e, depois de preenchido, gera
             automaticamente um novo boleto para pagamento.
           </p>
