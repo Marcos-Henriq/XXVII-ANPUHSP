@@ -34,7 +34,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">
                 Para a apresentação de trabalho nos Seminários Temáticos
@@ -44,7 +44,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">
                 Cada inscrito(a) poderá apresentar apenas 1 (um) trabalho em
@@ -57,7 +57,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">
                 A avaliação, o aceite e a eliminação de trabalhos são da
@@ -68,7 +68,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">
                 Além do resumo (máximo de 2800 caracteres), o envio do texto
@@ -81,7 +81,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">
                 O certificado de apresentação de trabalho será emitido somente
@@ -91,7 +91,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">
                 Não haverá devolução do valor de inscrição. Caso o trabalho não
@@ -102,7 +102,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">
                 No formulário de inscrição, ao clicar em "apresentador de
@@ -123,7 +123,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">1</Typography>
               <Typography className="text-default m-0">Formato: A4;</Typography>
@@ -131,7 +131,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">2</Typography>
               <Typography className="text-default m-0">
@@ -141,7 +141,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">3</Typography>
               <Typography className="text-default m-0">Tamanho: 12;</Typography>
@@ -149,7 +149,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">4</Typography>
               <Typography className="text-default m-0">
@@ -159,7 +159,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">5</Typography>
               <Typography className="text-default m-0">
@@ -170,7 +170,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">6</Typography>
               <Typography className="text-default m-0">
@@ -180,7 +180,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">7</Typography>
               <Typography className="text-default m-0">
@@ -190,7 +190,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">8</Typography>
               <Typography className="text-default m-0">
@@ -200,7 +200,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">9</Typography>
               <Typography className="text-default m-0">
@@ -211,7 +211,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">10</Typography>
               <Typography className="text-default m-0">
@@ -222,7 +222,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">11</Typography>
               <Typography className="text-default m-0">
@@ -232,7 +232,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">12</Typography>
               <Typography className="text-default m-0">
@@ -245,7 +245,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">13</Typography>
               <Typography className="text-default m-0">
@@ -257,7 +257,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">14</Typography>
               <Typography className="text-default m-0">
@@ -272,7 +272,7 @@ export default function Trabalho() {
             <ListItem
               disablePadding
               className="d-flex gap-2 justify-center"
-              sx={{ alignItems: "start" }}
+              sx={{ alignItems: 'start' }}
             >
               <Typography className="text-default m-0">15</Typography>
               <Typography className="text-default m-0">
