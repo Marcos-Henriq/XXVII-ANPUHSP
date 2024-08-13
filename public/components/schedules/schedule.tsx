@@ -44,15 +44,21 @@ const Schedule: React.FC<Event> = ({ id, dayWeek, date, schedules }) => {
                       <Link
                         key={idx}
                         className="link"
-                        href={`/programacao/mesa-redonda/${
-                          e.id
-                        }/${"/agenda"}/${"Agenda"}`}
+                        href={`/programacao/mesa-redonda/${e.id}/agenda/Agenda`}
                       >
                         <span className="title">{e.name}</span>
                         <OpenInNewIcon />
                       </Link>
                     ))}
                   </Row>
+                ) : schedule.event === "Fórum de Graduação" ? (
+                  <Link
+                    className="link"
+                    href="/programacao/forum-graduacao" // O caminho do link específico para "Fórum de Graduação"
+                  >
+                    <span className="title">Fórum de Graduação</span>
+                    <OpenInNewIcon />
+                  </Link>
                 ) : (
                   <p className="subtitle">{schedule.event}</p>
                 )}

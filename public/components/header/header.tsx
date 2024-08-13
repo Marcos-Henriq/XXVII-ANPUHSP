@@ -104,7 +104,7 @@ export default function Header({ title }: HeaderProps) {
             </ListItem>
             <Divider />
             <ListItem disablePadding className={styles.navItemMenu}>
-              <ListItemButton component="a" href="/instrucao_encontro">
+              <ListItemButton component="a" href="/programacao/seminarios">
                 {/* <ListItemIcon>
             </ListItemIcon> */}
                 <ListItemText
@@ -121,16 +121,16 @@ export default function Header({ title }: HeaderProps) {
                 <ListItemText primary="Minicursos" className={styles.link} />
               </ListItemButton>
             </ListItem>
+            <Divider />
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/livros">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText primary="Livros em lançamento" className={styles.link} />
+              </ListItemButton>
+            </ListItem>
           </List>
         </Collapse>
-        <Divider />
-        <ListItem disablePadding className={styles.navItemMenu}>
-          <ListItemButton component="a" href="/contato">
-            {/* <ListItemIcon>
-            </ListItemIcon> */}
-            <ListItemText primary="Contato" className={styles.link} />
-          </ListItemButton>
-        </ListItem>
         <Divider />
         <ListItem disablePadding className={styles.navItemMenu}>
           <ListItemButton component="a" href="/locais-alimentacao">

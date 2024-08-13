@@ -1,10 +1,11 @@
 import PageDefault from "@/public/components/pageContainer/pageContainer";
 import EventList from "@/public/components/schedules/scheduleList";
 import ThumbContainer from "@/public/components/thumbContainer/thumbContainer";
-import { Container, Breadcrumbs, Link, Typography } from "@mui/material";
 import ListMesas from "@/public/components/thumbContainer/listMesas";
+import { Container, Breadcrumbs, Link, Typography } from "@mui/material";
+import ListSt from "@/public/components/thumbContainer/listSt";
 
-export default function MesasRedondas() {
+export default function Seminarios() {
   return (
     <PageDefault title="Mesas Redondas">
       <Container>
@@ -12,10 +13,10 @@ export default function MesasRedondas() {
           <Link underline="hover" color="inherit" href="/">
             Página inicial
           </Link>
-          <Typography color="text.primary">Programação - Mesas redondas</Typography>
+          <Typography color="text.primary">Programação - Seminários Temáticos</Typography>
         </Breadcrumbs>
-        <h2 className="mb-4">Mesas redondas</h2>
-        <ListMesas/>
+        <h2 className="mb-4">Seminários Temáticos</h2>
+        <ListSt/>
       </Container>
     </PageDefault>
   );

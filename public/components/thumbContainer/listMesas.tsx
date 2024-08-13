@@ -15,7 +15,7 @@ interface MesaRedonda {
 
 const mesasRedondas = mesasRedondasData.mesasRedondas as MesaRedonda[];
 
-const ThumbList: React.FC = () => {
+const ListMesas: React.FC = () => {
   return (
     <Grid container spacing={2}>
       {mesasRedondas.map((mesa) => (
@@ -38,4 +38,4 @@ const ThumbList: React.FC = () => {
   );
 };
 
-export default ThumbList;
+export default ListMesas;

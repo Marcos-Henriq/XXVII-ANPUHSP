@@ -1,0 +1,40 @@
+{
+    "livros":[
+        {
+            "id": 1,
+            "titulo": "A derrota do laicismo",
+            "anoLancamento": "2024",
+            "imgUrl": "/images/Aderrotadolaicismo.jpeg"
+        },
+        {
+            "id": 2,
+            "titulo": "As marcas da pantera",
+            "anoLancamento": "2024",
+            "imgUrl": "/images/Asmarcasdapantera.jpeg"
+        },
+        {
+            "id": 3,
+            "titulo": "Elsa Freire & Paulo Freire",
+            "anoLancamento": "2024",
+            "imgUrl": "/images/elsafreireepaulofreire.jpeg"
+        },
+        {
+            "id": 4,
+            "titulo": "A escrita feminista de Julia Lopes de Almeida",
+            "anoLancamento": "2024",
+            "imgUrl": "/images/Aescritafeministadejulialopesdealmeida.jpeg"
+        },
+        {
+            "id": 5,
+            "titulo": "Estados distopicos da America",
+            "anoLancamento": "2024",
+            "imgUrl": "/images/estadosdistopicosdaamerica.jpeg"
+        },
+        {
+            "id": 6,
+            "titulo": "História da África",
+            "anoLancamento": "2024",
+            "imgUrl": "/images/historiadaafrica.jpeg"
+        }
+    ]
+}

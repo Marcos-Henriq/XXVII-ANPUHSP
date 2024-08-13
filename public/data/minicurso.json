@@ -1,0 +1,48 @@
+{
+    "minicursos": [
+      {
+        "id": 1,
+        "titulo": "As Direitas na História",
+        "ministrantes": ["Lenon Campos Maschette (UNICAMP)"]
+      },
+      {
+        "id": 2,
+        "titulo": "De volta à sala de aula: Ensino de História na Educação de Jovens e Adultos",
+        "ministrantes": ["Harian Pires Braga (Universidade Estadual de Campinas)"]
+      },
+      {
+        "id": 3,
+        "titulo": "História, memória e cultura em Moçambique",
+        "ministrantes": ["Thiago de Araujo Folador (Universidade de São Paulo)"]
+      },
+      {
+        "id": 4,
+        "titulo": "Introdução à cultura material na análise histórica",
+        "ministrantes": ["Raissa Monteiro dos Santos (Universidade de São Paulo)"]
+      },
+      {
+        "id": 5,
+        "titulo": "Meio Ambiente: campo e cidade sob a Ditadura Militar (1964-1988)",
+        "ministrantes": [
+          "Paulo Henrique Martinez (Universidade Estadual Paulista)",
+          "Janes Jorge (História - Unifesp)"
+        ]
+      },
+      {
+        "id": 6,
+        "titulo": "Muro de Berlim: polarização mundial. Metodologias ativas na aprendizagem do acontecimento que opôs uma cidade, um país, duas ideologias ... milhões de vidas",
+        "ministrantes": ["Marilu de Freitas Faricelli (PUC-SP)"]
+      },
+      {
+        "id": 7,
+        "titulo": "Práticas visuais como lugar de ação",
+        "ministrantes": ["Carlos Lima Junior (UNICAMP)"]
+      },
+      {
+        "id": 8,
+        "titulo": "Sessenta anos do golpe de 1964: lembrar a ditadura através do cinema",
+        "ministrantes": ["Ygor Pires Monteiro (Universidade do Estado do Rio de Janeiro)"]
+      }
+    ]
+  }
+  

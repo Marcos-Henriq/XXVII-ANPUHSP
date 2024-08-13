@@ -29,7 +29,7 @@ export default function Seminario() {
           <p className="text-default">
             Os Seminários Temáticos serão os espaços para a apresentação de
             pesquisas concluídas ou em estágio avançado de realização sobre um
-            mesmo tema. A previsão é de
+            mesmo tema. A previsão é de: 
             <b>
               26 Seminários Temáticos, com o mínimo de 12 e máximo de 24
               participantes
