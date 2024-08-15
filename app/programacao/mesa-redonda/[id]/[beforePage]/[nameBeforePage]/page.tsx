@@ -65,21 +65,33 @@ export default function MesaRedondaDetail({ params }: Props) {
         </Breadcrumbs>
 
         <h2 className="mb-2">{mesaRedonda.titulo}</h2>
-        <p className="text-default">{mesaRedonda.data} das {mesaRedonda.horario}</p>
-        <p className="text-default">Local: {mesaRedonda.local}</p>
-        <p className="text-default">Ementa: {mesaRedonda.ementa}</p>
-        {mesaRedonda.homenagem && <p className="text-default">Homenagem: {mesaRedonda.homenagem}</p>}
-        <h2 className="title">Mediadora</h2>
+        <p className="text-default">
+          {mesaRedonda.data} das {mesaRedonda.horario}
+        </p>
+        <h2 className="title mb-2">Local:</h2>
+        <p className="text-default">{mesaRedonda.local}</p>
+        <h2 className="title mb-2">Ementa:</h2>
+        <p className="text-default">{mesaRedonda.ementa}</p>
+        {mesaRedonda.homenagem && (
+          <>
+            <h2 className="title mb-2">Homenagem:</h2>
+            {mesaRedonda.homenagem && (
+              <p className="text-default">{mesaRedonda.homenagem}</p>
+            )}
+          </>
+        )}
+
+        <h2 className="title mb-2">Mediador(a):</h2>
         <p className="text-default">{mesaRedonda.mediadora}</p>
         {mesaRedonda.tema && (
           <>
-            <h2>Tema</h2>
+            <h2 className="title mb-2">Tema</h2>
             <p className="text-default">{mesaRedonda.tema}</p>
           </>
         )}
         {mesaRedonda.mediador && (
           <>
-            <h2>Mediador</h2>
+            <h2 className="title mb-2">Mediador</h2>
             <p className="text-default">{mesaRedonda.mediador}</p>
           </>
         )}
