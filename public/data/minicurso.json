@@ -1,48 +1,110 @@
 {
-    "minicursos": [
-      {
-        "id": 1,
-        "titulo": "As Direitas na História",
-        "ministrantes": ["Lenon Campos Maschette (UNICAMP)"]
-      },
-      {
-        "id": 2,
-        "titulo": "De volta à sala de aula: Ensino de História na Educação de Jovens e Adultos",
-        "ministrantes": ["Harian Pires Braga (Universidade Estadual de Campinas)"]
-      },
-      {
-        "id": 3,
-        "titulo": "História, memória e cultura em Moçambique",
-        "ministrantes": ["Thiago de Araujo Folador (Universidade de São Paulo)"]
-      },
-      {
-        "id": 4,
-        "titulo": "Introdução à cultura material na análise histórica",
-        "ministrantes": ["Raissa Monteiro dos Santos (Universidade de São Paulo)"]
-      },
-      {
-        "id": 5,
-        "titulo": "Meio Ambiente: campo e cidade sob a Ditadura Militar (1964-1988)",
-        "ministrantes": [
-          "Paulo Henrique Martinez (Universidade Estadual Paulista)",
-          "Janes Jorge (História - Unifesp)"
-        ]
-      },
-      {
-        "id": 6,
-        "titulo": "Muro de Berlim: polarização mundial. Metodologias ativas na aprendizagem do acontecimento que opôs uma cidade, um país, duas ideologias ... milhões de vidas",
-        "ministrantes": ["Marilu de Freitas Faricelli (PUC-SP)"]
-      },
-      {
-        "id": 7,
-        "titulo": "Práticas visuais como lugar de ação",
-        "ministrantes": ["Carlos Lima Junior (UNICAMP)"]
-      },
-      {
-        "id": 8,
-        "titulo": "Sessenta anos do golpe de 1964: lembrar a ditadura através do cinema",
-        "ministrantes": ["Ygor Pires Monteiro (Universidade do Estado do Rio de Janeiro)"]
-      }
-    ]
-  }
-  
+  "minicursos": [
+    {
+      "id": 1,
+      "titulo": "As Direitas na História",
+      "ementa": "Introdução à história das Direitas. Noções básicas; algumas abordagens teóricas. Analise ideológica e evolução do pensamento de direita desde a Revolução Francesa até os dias de hoje.",
+      "programa": "A disciplina apresenta o debate internacional sobre análises de ideias e as ideologias das direitas do conservadorismo do século XVIII até a atualidade. Analises que buscam compreender fenômenos sociais através de um enfoque ideacional ganham cada vez mais espaço dentro das ciências humanas. Nas últimas décadas, inúmeros trabalhos teóricos vêm sendo produzidos no intuito tanto de se compreender como ideias são geradas e disseminadas quanto como se relacionam (influenciando e sendo influenciadas) com a realidade material. No campo dos estudos políticos, estudiosos vem enfatizando o papel das ideias e das ideologias políticas nos eventos políticos modernos.",
+      "objetivos": [
+        "Dentro desse cenário, os objetivos do curso são a) debater a importância das ideias e dos conceitos nas análises de eventos políticos, b) apresentar e discutir as teorias sobre o funcionamento das ideologias políticas e, c) analisar o desenvolvimento das ideologias da direita."
+      ],
+      "curso": "2/3 da aula será expositiva, com slides e participação dos participantes. 1/3 final da aula será dedicada ao debate com os participantes, com espaço para troca de ideias, leituras, experiências etc.",
+      "aulas": [
+        "03/09 Aula 1: Ideias e Ideologias nas Humanidades",
+        "04/09 Aula 2 – As Direitas na História I (Conservadorismo e Fascismo)",
+        "05/09 Aula 3 – As Direitas na História II (Nova Direita e Extrema direita)"
+      ],
+      "ministrantes": ["Lenon Campos Maschette (UNICAMP)"]
+    },
+    {
+      "id": 2,
+      "titulo": "De volta à sala de aula: Ensino de História na Educação de Jovens e Adultos",
+      "ementa": "A Educação de Jovens e Adultos (EJA) é uma modalidade própria da Educação Básica e com grandes desafios quando se pensa numa educação pública de qualidade. A diversidade etária e de objetivos das/dos estudantes da EJA faz com que o Ensino de História não possa ser uma mera reprodução do que se faz no Ensino Fundamental de Nove Anos, pois não apenas o tempo é outro, como o currículo se faz de forma distinta, conversando com indivíduos que tem diferentes inserções no Mundo do Trabalho. Assim, além de uma seleção própria de conteúdo, a metodologia aplicada deve ser diferente, valorizando os saberes que as/os estudantes trazem, bem como permitindo pontes entre o que se tem de produção historiográfica e a realidade social dessas pessoas. O curso visa, portanto, pensar o Ensino de História para a EJA, debatendo o que é a modalidade e sua relação com a História, metodologias e conteúdos possíveis, além de compartilhar vivências de doentes e de estudantes em formação para a docência.",
+      "programa": "Forma de Desenvolvimento do Curso, O curso será desenvolvido com uma apresentação inicial do que é a EJA como modalidade de Ensino, a partir de um breve panorama da modalidade no Brasil, destacando a ideia de Educação para Adultos e o perfil de quem está na EJA no Ensino Fundamental. Em seguida vamos discutir a ideia de currículo para a EJA, observando a Base Nacional Comum Curricular (BNCC) e um estudo de caso sobre o município de Campinas. Depois desse bloco expositivo a ideia é trabalhar com sequências didáticas para o Ensino de História na EJA, possibilitando uma maior articulação com as/os cursistas, já que as vivências em sala de aula serão o mote para a discussão, sempre com a proposta de questionar o que se ensina e como se ensina na modalidade.",
+      "objetivos": [
+        "Conhecer as especificidades da EJA como modalidade do Ensino Fundamental;",
+        "Debater sequências didáticas para o Ensino de História na EJA;",
+        "Construir propostas pedagógicas que possam ser pensadas nas práticas de EJA."
+      ],
+      "aulas": [
+        "1º Dia – 3/9/2024 – Apresentação geral e contextualização do cenário da EJA.",
+        "2º Dia – 4/9/2024 – Atividade pedagógicas nas aulas de História da EJA.",
+        "3º Dia – 4/9/2024 – Construção de sequências didáticas para as aulas de História na EJA."
+      ],
+      "ministrantes": ["Harian Pires Braga (Universidade Estadual de Campinas)"]
+    },
+    {
+      "id": 3,
+      "titulo": "História, memória e cultura em Moçambique",
+      "ementa": "A proposta deste minicurso é explorar o tema da identidade e resistência na história de Moçambique, utilizando como ferramentas a literatura, as artes plásticas e a dança. Através do estudo de obras literárias e manifestações culturais, buscamos oferecer uma visão abrangente da construção de memórias do passado e das relações com a identidade nacional moçambicana com aportes que buscam contextualizar as diferentes percepções em função do período histórico em que estavam inseridos. Caracterizados também por processos de construção e de manipulação de tais identidades em seus usos políticos. Para enriquecer essa discussão, é fundamental abordar o debate sobre as identidades e formações sociais em Moçambique, cujo conhecimento envolve compreender aspectos internos dessa sociedade assim como historicamente forma condicionados por uma ação colonizadora. Nesse sentido, a contextualização de conceitos como 'etnia' e 'tribo' a partir de suas utilizações pelas autoridades coloniais e pelos governos independentes possibilita uma reflexão crítica sobre os significados das identidades culturais moçambicanas. Alicerçados nessa base teórica, aprofundaremos o debate sobre como as identidades culturais regionais foram abordadas pela produção literária e artística como ferramenta dos próprios africanos para narrar sua história e em diálogo com o seu tempo presente. Na literatura destaca-se autores como Ungulani Ba Ka Khosa, que desafiou a representação do principal símbolo da resistência no sul de Moçambique (Ngungunhane), e o trabalho de Paulina Chiziane e Rasta Pita sobre a tradição dos Yao (Ajaua). Para manifestações artísticas e culturais, será apresentado dois aspectos fundamentais da produção cultural do povo Makonde: a dança tradicional do Mapiko e as esculturas em pau-preto. Mais do que meras representações, essas expressões desempenham um papel na articulação entre essas populações na resistência ao colonialismo e suas consequências. Assim, o objetivo é fomentar um debate crítico sobre a história de Moçambique, ancorado em leituras do passado entrelaçadas com contextos culturais, produções artísticas e literárias. Programa: (Aula 1) A formação histórico-social de Moçambique; (Aula 2) A relação entre literatura e memória: em Paulina Chiziane e Ungulani Ba Ka Khosa; (Aula 3) Resistência e as tradições artísticas makonde: Mapiko e a escultura de pau preto.",
+      "ministrantes": ["Thiago de Araujo Folador (Universidade de São Paulo)"]
+    },
+    {
+      "id": 4,
+      "titulo": "Introdução à cultura material na análise histórica",
+      "ementa": "Daniel Miller, em texto clássico sobre a cultura material, afirmou que os objetos são humildes – isto é, não chamam a atenção e sua função e importância costumam passar desapercebidas a um primeiro olhar. Embora sejamos rodeados por uma imensidão de objetos, ainda é comum que pesquisas históricas tomem o mundo material apenas como resultado do trabalho humano, restringindo a análise de como a materialidade pode reafirmar, reforçar ou formar aspectos da vida social. Tomando como base as definições da Miller e de Ulpiano Bezerra de Meneses, de que os objetos possuem agência e que é preciso analisar sua produção circulação e consumo, o curso propõe uma breve introdução à Cultura Material a fim de demonstrar seu potencial como plataforma de análise histórica.",
+      "programa": "O minicurso será dividido em três aulas e fará uso de aulas expositivas, discussões e exercícios práticos. No primeiro encontro será feito uma breve apresentação teórica da Cultura Material a partir dos estudos de Daniel Miller e Ulpiano Bezerra de Meneses. No segundo encontro, será feita a apresentação de pesquisas que mobilizaram a cultura material para analisar aspectos cotidianos de algumas sociedades. Serão usados como exemplos pesquisas sobre a vida doméstica sobre gênero. Por fim, na última aula será proposto um exercício prático. A turma será convidada a analisar alguns objetos (da atualidade e do passado) e a refletir sobre temas históricos que são possíveis de serem abordados pela análise material.",
+      "objetivos": [
+        "O minicurso tem por objetivo apresentar os principais conceitos da cultura material – materialidade e agência – e instrumentalizar os participantes a utilizá-los em análises da sociedade a partir de seus objetos. Pretende-se, com isso, fornecer uma introdução básica a essa área do conhecimento."
+      ],
+      "aulas": [
+        "Aula 1 – Cultura material: introdução conceitual",
+        "Aula 2 – Usar a cultura material para pensar a história",
+        "Aula 3 – Laboratório de análise: exercício prático"
+      ],
+      "ministrantes": ["Raissa Monteiro dos Santos (Universidade de São Paulo)"]
+    },
+    {
+      "id": 5,
+      "titulo": "Meio Ambiente: campo e cidade sob a Ditadura Militar (1964-1988)",
+      "ementa": "As mudanças socioambientais no campo e nas cidades sob o impacto das políticas de desenvolvimento econômico e integração nacional nos governos militares e civil-militar.",
+      "programa": "1) exposição oral; 2) apresentação de tipologia de fontes e documentação; 3) destaques de pesquisa na historiografia e na análise socioambiental de temas e regiões.",
+      "objetivos": [
+        "Conhecer em sentido amplo dinÇamicas de ocupação territorial, de uso e apropriação de recursos naturais e da violência social desencadeada no campo e nas cidades brasileiras."
+      ],
+      "ministrantes": [
+        "Paulo Henrique Martinez (Universidade Estadual Paulista)",
+        "Janes Jorge (História - Unifesp)"
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Muro de Berlim: polarização mundial. Metodologias ativas na aprendizagem do acontecimento que opôs uma cidade, um país, duas ideologias ... milhões de vidas",
+      "ementa": "O minicurso trata do tema “Construção e Queda do Muro de Berlim” (1961-1989), fato que simboliza a polarização que caracterizou o mundo durante a Guerra Fria e permanece viva em nossas relações sociais. O objetivo central do minicurso é o de revisitar acontecimentos ligados ao tema para que alunos da Educação Básica entendam historicamente a divisão do mundo em polos distintos e fechados. Para tanto, propomos práticas escolares ligadas ao conhecimento histórico que entende o Muro de Berlim para além de uma perspectiva de divisão territorial, corroborando com a relevância dos estudos históricos na compreensão da realidade vivida por todos. São dois os objetivos específicos do minicurso: 1) recuperar historicamente o sentido do acontecimento “Muro de Berlim” no tempo, em sua dimensão de fato, a duração curta, da conjuntura, em seu contexto, e da longa duração, em seu processo histórico. 2) Analisar o tema tratado em aulas divulgadas em canais do Youtube. Com parâmetros estabelecidos por metodologias ativas, serão exercitados procedimentos didáticos ligados ao desenvolvimento da autonomia discente no processo de aprendizagem. A partir do uso didático de documentos de diferentes linguagens, especialmente fotos e depoimentos de pessoas que viveram tanto em Berlim Ocidental, como em Berlim Oriental, o método científico da História será exercitado, destacando-se diversas durações do acontecimento Muro de Berlim. Esse minicurso é fruto de projeto desenvolvido em escola bicultural brasileira/alemã desde os anos 1990 e até hoje por três professoras, alemãs e brasileiras. Acreditamos que, ao produzir material didático, estabelecemos diálogos entre o conhecimento histórico e o universo cultural, as necessidades pedagógicas e ao desenvolvimento cognitivo de alunos. Além disso, a escolha do material, a elaboração dos exercícios e os momentos de avaliação representam momentos de atualização bibliográfica e didática, fundamental para nosso crescimento profissional. Durante o curso serão desenvolvidas atividades já utilizadas em turmas do Ensino Fundamental e Médio, já que pretendemos que as atividades desenvolvidas durante o minicurso sejam exequíveis em aulas de diferentes escolas da Educação básica. Palavras-chave: História, Muro de Berlim, polarização, prática escolar, metodologia ativa. Forma de desenvolvimento do curso: apresentações teóricas com uso de Power Point, exercícios individuais e em grupos, avaliação individual do minicurso. Objetivos: 1) compreender a polarização presente no processo histórico entre a Construção e a Queda do Muro de Berlim; 2) exercitar procedimentos de metodologias ativas; 3) Refletir sobre a relevância dos estudos da História.",
+      "ministrantes": ["Marilu de Freitas Faricelli (PUC-SP)"]
+    },
+    {
+      "id": 7,
+      "titulo": "Práticas visuais como lugar de ação",
+      "ementa": "Tendo por eixo as interlocuções entre pesquisa & ensino de história, o minicurso problematiza as múltiplas possibilidades de produção saberes por meio das imagens. A partir de perspectivas variadas que entremeiam cultura visual, museus, políticas de memórias e políticas da história, esta proposta centra-se em investigações nas quais as imagens são complexificadas enquanto potentes fabricadoras de imaginários, participantes de disputas de narrativas acerca das questões prementes do passado e do presente, nas suas mais diversas temporalidades – incluindo ainda os usos e desusos; exclusões e apagamentos.",
+      "programa": "o minicurso está estruturado em três encontros. Em cada aula serão abordadas questões referentes às imagens afinadas aos eixos definidos para o minicurso: pesquisa, ensino e produção de saberes por meio das imagens; políticas visuais e a criação de imaginários; os trânsitos das imagens e as narrativas museais.",
+      "objetivos": [
+        "Promover reflexões teórico-metodológicas que dinamizem as intersecções entre pesquisa, ensino e produção de conhecimento por meio das imagens;",
+        "Debater as abordagens que colocam o visual no centro das discussões relacionadas às criações e disputas de políticas de memória e narrativas visuais;",
+        "Impulsionar a formulação de problemas de pesquisa no campo historiográfico que permitam indagar as formas de ver, de suas materialidades, além das epistemologias que norteiam tais abordagens."
+      ],
+      "ministrantes": ["Carlos Lima Junior (UNICAMP)"]
+    },
+    {
+      "id": 8,
+      "titulo": "Sessenta anos do golpe de 1964: lembrar a ditadura através do cinema",
+      "ementa": "História. Por que ainda falar sobre isso?. Dialogando com o tema geral do evento, a pergunta anterior pode ter diferentes propostas de resposta. Podemos, por exemplo, reconhecer como narrativas e representações históricas têm circulado cada vez mais pela sociedade, inclusive a partir de profissionais e atividades desvinculadas dos meios acadêmicos. A História pode ser mobilizada para compreender questões contemporâneas, conformar lutas sociais do presente e até ser instrumentalizada para interesses ideológicos distintos. Completando 60 anos do golpe de 1964, os debates sobre a ditadura civil-militar são um exemplo de como a História sustenta seu valor social de reflexão e combate contra figuras, governos e ações autoritárias. Nesse sentido, o minicurso pretende se inserir nas discussões sobre a importância contemporânea dos conhecimentos históricos levando em consideração as relações entre História e Cinema, sobretudo através de análises sobre filmes produzidos em diferentes contextos que representam a ditadura civil-militar.",
+      "programa": "O minicurso será ministrado através da exibição de trechos de filmes selecionados para cada dia de atividades e de debates mediados com os inscritos sobre as representações históricas realizadas, as escolhas cinematográficas trabalhadas e o contexto de produção das obras. Para dar suporte às reflexões e às discussões, serão enviados previamente textos de apoio aos inscritos, tendo em vista que eles ajudarão a pensar nos diálogos teóricos entre História e Cinema, nas temáticas específicas de cada dia ou nos contextos em que os filmes se inserem.",
+      "objetivos": [
+        "Proporcionar ferramentas para a análise de obras audiovisuais;",
+        "Discutir as possibilidades de compreensão das relações entre História e Cinema;",
+        "Refletir sobre as diferentes representações históricas feitas pelo cinema brasileiro sobre a ditadura civil-militar;",
+        "Problematizar as relações entre os filmes sobre a ditadura civil-militar e seus contextos de produção;",
+        "Analisar as contribuições do cinema para a construção de memórias sobre a ditadura civil-militar."
+      ],
+      "aulas": [
+        "Aula 1 - O filme “Que bom te ver viva” (1989), a proximidade com a transição política dos anos 1980 e o hibridismo entre documentário e ficção para a luta armada",
+        "Aula 2 - O filme “Ação entre amigos” (1998), as políticas de memória e de reparação dos anos 1990 e o gênero cinematográfico do suspense lida com o esquecimento do passado",
+        "Aula 3 - O filme “1964: O Brasil entre armas e livros”, o negacionismo histórico e a disputa contemporânea de memórias e versões sobre a ditadura civil-militar"
+      ],
+      "ministrantes": [
+        "Ygor Pires Monteiro (Universidade do Estado do Rio de Janeiro)"
+      ]
+    }
+  ]
+}

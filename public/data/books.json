@@ -1,40 +1,77 @@
 {
-    "livros":[
-        {
-            "id": 1,
-            "titulo": "A derrota do laicismo",
-            "anoLancamento": "2024",
-            "imgUrl": "/images/Aderrotadolaicismo.jpeg"
-        },
-        {
-            "id": 2,
-            "titulo": "As marcas da pantera",
-            "anoLancamento": "2024",
-            "imgUrl": "/images/Asmarcasdapantera.jpeg"
-        },
-        {
-            "id": 3,
-            "titulo": "Elsa Freire & Paulo Freire",
-            "anoLancamento": "2024",
-            "imgUrl": "/images/elsafreireepaulofreire.jpeg"
-        },
-        {
-            "id": 4,
-            "titulo": "A escrita feminista de Julia Lopes de Almeida",
-            "anoLancamento": "2024",
-            "imgUrl": "/images/Aescritafeministadejulialopesdealmeida.jpeg"
-        },
-        {
-            "id": 5,
-            "titulo": "Estados distopicos da America",
-            "anoLancamento": "2024",
-            "imgUrl": "/images/estadosdistopicosdaamerica.jpeg"
-        },
-        {
-            "id": 6,
-            "titulo": "História da África",
-            "anoLancamento": "2024",
-            "imgUrl": "/images/historiadaafrica.jpeg"
-        }
-    ]
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "A derrota do laicismo",
+      "anoLancamento": "2024",
+      "imgUrl": "/images/Aderrotadolaicismo.jpeg"
+    },
+    {
+      "id": 2,
+      "titulo": "As marcas da pantera",
+      "anoLancamento": "2024",
+      "imgUrl": "/images/Asmarcasdapantera.jpeg"
+    },
+    {
+      "id": 3,
+      "titulo": "Elsa Freire & Paulo Freire",
+      "anoLancamento": "2024",
+      "imgUrl": "/images/elsafreireepaulofreire.jpeg"
+    },
+    {
+      "id": 4,
+      "titulo": "A escrita feminista de Julia Lopes de Almeida",
+      "anoLancamento": "2024",
+      "imgUrl": "/images/Aescritafeministadejulialopesdealmeida.jpeg"
+    },
+    {
+      "id": 5,
+      "titulo": "Estados distopicos da America",
+      "anoLancamento": "2024",
+      "imgUrl": "/images/estadosdistopicosdaamerica.jpeg"
+    },
+    {
+      "id": 6,
+      "titulo": "História da África",
+      "anoLancamento": "2024",
+      "imgUrl": "/images/historiadaafrica.jpeg"
+    },
+    {
+      "id": 7,
+      "titulo": "História social das populações no Brasil",
+      "anoLancamento": "2024",
+      "imgUrl": "/images/historiasocialdaspopulacoesnobrasil.jpeg"
+    },
+    {
+      "id": 8,
+      "titulo": "O lesbianismo é um barato",
+      "anoLancamento": "2024",
+      "imgUrl": "/images/olesbianismo.jpeg"
+    },
+    {
+      "id": 6,
+      "titulo": "O PCB e os livros",
+      "anoLancamento": "2024",
+      "imgUrl": "/images/opcbeoslivros.jpeg"
+    },
+    {
+      "id": 6,
+      "titulo": "Os debates políticos da revista do rádio",
+      "anoLancamento": "2024",
+      "imgUrl": "/images/osdebatespoliticosdarevistadoradio.jpeg"
+    },
+    {
+      "id": 6,
+      "titulo": "O sexo da arte",
+      "anoLancamento": "2024",
+      "imgUrl": "/images/osexodaarte.jpeg"
+    }
+    ,
+    {
+      "id": 6,
+      "titulo": "Viver de outra maneira o tempo",
+      "anoLancamento": "2024",
+      "imgUrl": "/images/viverdeoutramaneiraotempo.jpeg"
+    }
+  ]
 }
