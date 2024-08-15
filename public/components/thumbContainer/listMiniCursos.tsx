@@ -7,7 +7,12 @@ import ThumbContainer from "./thumbContainer";
 interface Minicursos {
   id: number;
   titulo: string;
+  ementa: string;
+  programa?: string;
+  objetivos?: [];
+  curso?: string;
   ministrantes: [];
+  aulas?: [];
 }
 
 const minicursos =
