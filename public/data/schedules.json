@@ -141,20 +141,24 @@
     "date": "06/09/2024",
     "schedules": [
       {
-        "schedule": "horários a serem definidos",
-        "event": "Visitas guiadas"
+        "schedule": "09:00",
+        "event": "Grupo A"
       },
       {
-        "schedule": "horários a serem definidos",
-        "event": "Centro de Memória da Unicamp"
+        "schedule": "10:00",
+        "event": "Grupo B"
       },
       {
-        "schedule": "horários a serem definidos",
-        "event": "Biblioteca de Obras Raras"
+        "schedule": "11:00",
+        "event": "Grupo C"
       },
       {
-        "schedule": "horários a serem definidos",
-        "event": "Arquivo Edgard Leuenroth"
+        "schedule": "14:00",
+        "event": "Grupo D"
+      },
+      {
+        "schedule": "15:00",
+        "event": "Grupo E"
       }
     ]
   }

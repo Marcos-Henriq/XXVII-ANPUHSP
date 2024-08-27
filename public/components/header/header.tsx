@@ -212,7 +212,7 @@ export default function Header({ title }: HeaderProps) {
                 {/* <ListItemIcon>
                 </ListItemIcon> */}
                 <ListItemText
-                  primary="Participação em Minicurso/Oficina"
+                  primary="Participação em Minicurso"
                   className={styles.link}
                 />
               </ListItemButton>
