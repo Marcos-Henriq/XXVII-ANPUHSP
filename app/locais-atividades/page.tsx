@@ -53,10 +53,8 @@ const {
 const renderAtividades = (atividades: Evento[], category: string) => {
   return (
     <Grid container spacing={2}>
-      {atividades.map((atividade, index) => {
-
-        return (
-          <Grid item xs={12} sm={6} md={4}>
+      {atividades.map((atividade, index) => (
+        <Grid item xs={12} sm={6} md={4} key={index}>
           <Link
             className="link"
             href={atividade.link}
@@ -68,8 +66,7 @@ const renderAtividades = (atividades: Evento[], category: string) => {
             />
           </Link>
         </Grid>
-        );
-      })}
+      ))}
     </Grid>
   );
 };
