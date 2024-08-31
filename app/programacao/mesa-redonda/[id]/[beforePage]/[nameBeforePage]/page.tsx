@@ -1,7 +1,10 @@
 // app/programacao/mesa-redonda/[id]/page.tsx
 import PageDefault from "@/public/components/pageContainer/pageContainer";
 import mesasRedondasData from "@/public/data/mesasRedondas.json";
-import { Breadcrumbs, Container, Link, Typography } from "@mui/material";
+import { Breadcrumbs, Container, Link, Typography,Button } from "@mui/material";
+import { Col, Row } from "react-bootstrap";
+import OpenInNewIcon from "@mui/icons-material/OpenInNew";
+import { PlayArrow } from "@mui/icons-material";
 
 interface MesaRedonda {
   id: number;
@@ -60,11 +63,23 @@ export default function MesaRedondaDetail({ params }: Props) {
             {nameBeforePage}
           </Link>
           <Typography color="text.primary">
-            Mesa Redonda - {mesaRedonda.id}
+            Mesa redonda - {mesaRedonda.id}
           </Typography>
         </Breadcrumbs>
 
         <h2 className="mb-2">{mesaRedonda.titulo}</h2>
+        <Row className="mb-4">
+          <Col sm={12} md={6} lg={3}>
+            <Link
+              href="https://www.youtube.com/@ANPUH-SP"
+              className="text-decoration-none"
+            >
+              <Button variant="contained" className="button w-100" endIcon={<PlayArrow/>}>
+                Ver no youtube
+              </Button>
+            </Link>
+          </Col>
+        </Row>
         <p className="text-default">
           {mesaRedonda.data} das {mesaRedonda.horario}
         </p>

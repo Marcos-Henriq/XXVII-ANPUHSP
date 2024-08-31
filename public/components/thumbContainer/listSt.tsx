@@ -9,6 +9,8 @@ interface SeminariosTematicos {
   codigo: string;
   titulo: string;
   coordenacao: string;
+  local: string;
+  dias: string;
 }
 
 const sts =

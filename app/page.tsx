@@ -28,22 +28,23 @@ export default function Home() {
           <p className="text-default">
             Nos alegramos por ter o apoio da <b>Unicamp</b>, representado pela
             direção do IFCH – Instituto de Filosofia e Ciências Humanas, assim
-            como do Departamento do curso de História, na pessoa da Diretora
-            Raquel G. Alves Gomes, do Programa de Pós-graduação de História por
-            meio de sua Coordenadora Luana S. Tvardovskas, e o Mestrado
-            Profissional em Ensino de História – ProfHistória, e assim dispor
-            das instalações para a realização deste evento durante os dias{" "}
+            como do Departamento do curso de História, do Programa de
+            Pós-graduação de História e o Mestrado Profissional em Ensino de
+            História – ProfHistória, e assim dispor das instalações para a
+            realização deste evento durante os dias{" "}
             <b>02 a 06 de setembro de 2024</b>.
           </p>
           <p className="text-default">
-            Após duas edições no formato virtual, voltaremos a nos encontrar
-            para refletir sobre o tema: <b>História, por que ainda falar sobre
-            isso?</b> Com o objetivo de enfatizar a importância do conhecimento
-            histórico e da prática docente em todos os níveis, esse evento será
-            mais uma forma de irmos contra o negacionismo científico que tem se
-            ramificado nos últimos anos por meio de fake news e discursos que
-            procuram esvaziar as análises pautadas em metodologias e fontes
-            consagradas da História...
+            Após duas edições do evento no formato virtual, voltamos a nos
+            encontrar de forma presencial para refletir sobre o tema:
+            <b>História, por que ainda falar sobre isso?</b> Com o objetivo de
+            enfatizar a importância do conhecimento histórico e da prática
+            docente e todos os níveis, esse evento é uma demonstração contrária
+            ao negacionismo científico que se alastrou nos últimos anos.
+          </p>
+          <p className="text-default">
+            Enfim, desejamos que você aproveite bem esses dias de intensa
+            programação aqui na Unicamp!
           </p>
           <Row>
             <Col sm={12} md={6} lg={4}>

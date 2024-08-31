@@ -219,7 +219,7 @@ const renderRestaurantes = (restaurantes: Restaurante[], category: string) => {
                   aria-controls={`panel${index}-content`}
                   id={`panel${index}-header`}
                 >
-                  <Typography variant="h6" component="div">
+                  <Typography variant="h6" className="title" component="div">
                     Horários
                   </Typography>
                 </AccordionSummary>

@@ -7,11 +7,22 @@ import { AccessAlarm } from "@mui/icons-material";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
+import { link } from "fs";
 
 interface ScheduleEvent {
   schedule: string;
   event: string | { id: number; name: string }[];
 }
+
+type LinksType = {
+  "Fórum de Graduação": string;
+  "Abertura Conferência": string;
+  "Apresentação de Pôsteres": string;
+  "Assembleia": string;
+  "Lançamento de livros": string;
+  "Conferência de Encerramento": string;
+  "Visitas guiadas": string;
+};
 
 interface Event {
   id: number;
@@ -20,7 +31,25 @@ interface Event {
   schedules: ScheduleEvent[];
 }
 
+function getLink(links: LinksType, eventKey: string): string {
+  return links[eventKey as keyof LinksType] || "Evento desconhecido";
+}
+
 const Schedule: React.FC<Event> = ({ id, dayWeek, date, schedules }) => {
+  const links: LinksType = {
+    "Fórum de Graduação": "forum-graduacao",
+    "Abertura Conferência": "abertura",
+    "Apresentação de Pôsteres": "apresentacao-posteres",
+    "Assembleia": "assembleia",
+    "Lançamento de livros": "lancamento-livros",
+    "Conferência de Encerramento" : "encerramento",
+    "Visitas guiadas": "visitas-guiadas"
+  };
+
+  function isLinkKey(eventKey: string): eventKey is keyof LinksType {
+    return eventKey in links;
+  }
+
   return (
     <Container className="d-flex flex-column align-start justify-center p-0 my-4 gap-3">
       <div>
@@ -51,16 +80,20 @@ const Schedule: React.FC<Event> = ({ id, dayWeek, date, schedules }) => {
                       </Link>
                     ))}
                   </Row>
-                ) : schedule.event === "Fórum de Graduação" ? (
-                  <Link
-                    className="link"
-                    href="/programacao/forum-graduacao" // O caminho do link específico para "Fórum de Graduação"
-                  >
-                    <span className="title">Fórum de Graduação</span>
-                    <OpenInNewIcon />
-                  </Link>
                 ) : (
-                  <p className="subtitle">{schedule.event}</p>
+                  <>
+                    {isLinkKey(schedule.event) ? (
+                      <Link
+                        className="link"
+                        href={`/programacao/${links[schedule.event]}`}
+                      >
+                        <span className="title">{schedule.event}</span>
+                        <OpenInNewIcon />
+                      </Link>
+                    ) : (
+                      <p className="subtitle">{schedule.event}</p>
+                    )}
+                  </>
                 )}
               </div>
             </ListItem>

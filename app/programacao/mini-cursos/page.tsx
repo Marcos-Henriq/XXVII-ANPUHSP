@@ -13,9 +13,9 @@ export default function MiniCursos() {
           <Link underline="hover" color="inherit" href="/">
             Página inicial
           </Link>
-          <Typography color="text.primary">Programação - Mini cursos</Typography>
+          <Typography color="text.primary">Programação - Minicursos</Typography>
         </Breadcrumbs>
-        <h2 className="mb-4">Mini-cursos</h2>
+        <h2 className="mb-4">Minicursos</h2>
         <ListMiniCursos/>
       </Container>
     </PageDefault>

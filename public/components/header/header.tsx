@@ -108,7 +108,7 @@ export default function Header({ title }: HeaderProps) {
                 {/* <ListItemIcon>
             </ListItemIcon> */}
                 <ListItemText
-                  primary="Seminários Temáticos"
+                  primary="Simpósios Temáticos"
                   className={styles.link}
                 />
               </ListItemButton>
@@ -126,11 +126,25 @@ export default function Header({ title }: HeaderProps) {
               <ListItemButton component="a" href="/programacao/livros">
                 {/* <ListItemIcon>
                 </ListItemIcon> */}
-                <ListItemText primary="Livros em lançamento" className={styles.link} />
+                <ListItemText
+                  primary="Livros em lançamento"
+                  className={styles.link}
+                />
               </ListItemButton>
             </ListItem>
           </List>
         </Collapse>
+        <Divider />
+        <ListItem disablePadding className={styles.navItemMenu}>
+          <ListItemButton component="a" href="/locais-atividades">
+            {/* <ListItemIcon>
+            </ListItemIcon> */}
+            <ListItemText
+              primary="Locais de atividades"
+              className={styles.link}
+            />
+          </ListItemButton>
+        </ListItem>
         <Divider />
         <ListItem disablePadding className={styles.navItemMenu}>
           <ListItemButton component="a" href="/locais-alimentacao">
@@ -186,7 +200,10 @@ export default function Header({ title }: HeaderProps) {
             </ListItem>
             <Divider />
             <ListItem disablePadding className={styles.navItemMenu}>
-              <ListItemButton component="a" href="/instrucoes/apresentador-trabalho">
+              <ListItemButton
+                component="a"
+                href="/instrucoes/apresentador-trabalho"
+              >
                 {/* <ListItemIcon>
                 </ListItemIcon> */}
                 <ListItemText
@@ -197,7 +214,10 @@ export default function Header({ title }: HeaderProps) {
             </ListItem>
             <Divider />
             <ListItem disablePadding className={styles.navItemMenu}>
-              <ListItemButton component="a" href="/instrucoes/apresentador-poster">
+              <ListItemButton
+                component="a"
+                href="/instrucoes/apresentador-poster"
+              >
                 {/* <ListItemIcon>
                 </ListItemIcon> */}
                 <ListItemText

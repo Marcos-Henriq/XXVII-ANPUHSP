@@ -1,79 +1,132 @@
 {
-  "livros": [
+  "lancamentoLivros": [
     {
       "id": 1,
+      "autoria": "Adalmir Leonidio",
       "titulo": "A derrota do laicismo",
-      "anoLancamento": "2024",
-      "imgUrl": "/images/Aderrotadolaicismo.jpeg"
+      "editoria": "Hucitec",
+      "imgUrl": "/images/Aderrotadolaicismo.jpeg",
+      "ano": 2024
     },
     {
       "id": 2,
-      "titulo": "As marcas da pantera",
-      "anoLancamento": "2024",
-      "imgUrl": "/images/Asmarcasdapantera.jpeg"
+      "autoria": "Helena Wakim Moreno, Ivan Sicca Gonçalves, Raquel G. A. Gomes, Thiago H. Sampaio (Orgs.)",
+      "titulo": "História da África nas universidades públicas do Estado de São Paulo: ensino, abordagens e memória (2003-2023)",
+      "editoria": "Lutas Anticapital",
+      "imgUrl": "/images/historiadaafrica.jpeg",
+      "ano": 2024
     },
     {
       "id": 3,
-      "titulo": "Elsa Freire & Paulo Freire",
-      "anoLancamento": "2024",
-      "imgUrl": "/images/elsafreireepaulofreire.jpeg"
+      "autoria": "Julia Aleksandra Martucci Kumpera",
+      "titulo": "\"O lesbianismo é um barato\": o GALF e o ativismo lésbico-feminista no Brasil (1979-1990)",
+      "editoria": "Intermeios",
+      "imgUrl": "/images/olesbianismo.jpeg",
+      "ano": 2024
     },
     {
       "id": 4,
-      "titulo": "A escrita feminista de Julia Lopes de Almeida",
-      "anoLancamento": "2024",
-      "imgUrl": "/images/Aescritafeministadejulialopesdealmeida.jpeg"
+      "autoria": "Maycon Dougllas Vieira dos Santos",
+      "titulo": "Para além das amenidades: os debates políticos da Revista do Rádio (1948 - 1954)",
+      "editoria": "Pedro & João Editores",
+      "imgUrl": "/images/osdebatespoliticosdarevistadoradio.jpeg",
+      "ano": 2024
     },
     {
       "id": 5,
-      "titulo": "Estados distopicos da America",
-      "anoLancamento": "2024",
-      "imgUrl": "/images/estadosdistopicosdaamerica.jpeg"
+      "autoria": "Vinícius Juberte",
+      "titulo": "O PCB e os Livros: A Editorial Calvino no período da legalidade do partido nos anos 1940 (1943-1948)",
+      "editoria": "Alma Revolucionária",
+      "imgUrl": "/images/opcbeoslivros.jpeg",
+      "ano": 2024
     },
     {
       "id": 6,
-      "titulo": "História da África",
-      "anoLancamento": "2024",
-      "imgUrl": "/images/historiadaafrica.jpeg"
+      "autoria": "Amurabi Oliveira",
+      "titulo": "Gilberto Freyre & a Educação",
+      "editoria": "Massangana",
+      "imgUrl": "/images/GilbertoFreyreeaEducação.jpeg",
+      "ano": 2023
     },
     {
       "id": 7,
-      "titulo": "História social das populações no Brasil",
-      "anoLancamento": "2024",
-      "imgUrl": "/images/historiasocialdaspopulacoesnobrasil.jpeg"
+      "autoria": "Ana Silvia Volpi Scott & Sergio Odilon Nadalin (Orgs.)",
+      "titulo": "História Social das Populações no Brasil Escravista",
+      "editoria": "Oikos",
+      "imgUrl": "/images/historiasocialdaspopulacoesnobrasil.jpeg",
+      "ano": 2023
     },
     {
       "id": 8,
-      "titulo": "'O lesbianismo é um barato': o GALF e o ativismo lésbico-feminista no Brasil (1979-1990)",
-      "editora":"Intermeios",
-      "autoria":"Julia Aleksandra Martucci Kumpera",
-      "anoLancamento": "2024",
-      "imgUrl": "/images/olesbianismo.jpeg"
+      "autoria": "Evander Ruthieri da Silva",
+      "titulo": "Entre o escudo e a azagaia: uma história política do Reino Zulu no século XIX",
+      "editoria": "EdUERJ",
+      "imgUrl": "/images/EntreoEscudoeaAzagaia.jpeg",
+      "ano": 2023
     },
     {
-      "id": 6,
-      "titulo": "O PCB e os livros",
-      "anoLancamento": "2024",
-      "imgUrl": "/images/opcbeoslivros.jpeg"
+      "id": 9,
+      "autoria": "Luana Saturnino Tvardovskas e María Laura Rosa - organizadoras",
+      "titulo": "O Sexo da Arte: teorias e críticas feministas",
+      "editoria": "Intermeios",
+      "imgUrl": "/images/osexodaarte.jpeg",
+      "ano": 2023
     },
     {
-      "id": 6,
-      "titulo": "Os debates políticos da revista do rádio",
-      "anoLancamento": "2024",
-      "imgUrl": "/images/osdebatespoliticosdarevistadoradio.jpeg"
+      "id": 10,
+      "autoria": "Margareth Rago, Gabriela Simonetti Trevisan, Fábio Gonzaga Gesueli, Tony Hara, Varlei Couto (orgs.)",
+      "titulo": "Viver de outra maneira o tempo: Foucault e as políticas da subjetividade",
+      "editoria": "Intermeios",
+      "imgUrl": "/images/viverdeoutramaneiraotempo.jpeg",
+      "ano": 2023
     },
     {
-      "id": 6,
-      "titulo": "O sexo da arte",
-      "anoLancamento": "2024",
-      "imgUrl": "/images/osexodaarte.jpeg"
-    }
-    ,
+      "id": 11,
+      "autoria": "Nima Spigolon, Unicamp",
+      "titulo": "Elza Freire e Paulo Freire - noites de exílio, dias de utopia",
+      "editoria": "Pangeia",
+      "imgUrl": "/images/elsafreireepaulofreire.jpeg",
+      "ano": 2023
+    },
     {
-      "id": 6,
-      "titulo": "Viver de outra maneira o tempo",
-      "anoLancamento": "2024",
-      "imgUrl": "/images/viverdeoutramaneiraotempo.jpeg"
+      "id": 12,
+      "autoria": "Rodrigo Aparecido de Araújo Pedroso",
+      "titulo": "Estados Distópicos da América: o futuro dos EUA nas histórias em quadrinhos (1983-1999)",
+      "editoria": "CRV",
+      "imgUrl": "/images/estadosdistopicosdaamerica.jpeg",
+      "ano": 2023
+    },
+    {
+      "id": 13,
+      "autoria": "Rozely Menezes Vigas Oliveira",
+      "titulo": "Nas clausuras de Goa: a comunidade das mônicas no Monte Santo e sua economia espiritual (1606-1721)",
+      "editoria": "Editora Cravo (Porto)",
+      "imgUrl": "/images/Nasclausuras.jpeg",
+      "ano": 2023
+    },
+    {
+      "id": 14,
+      "autoria": "Gabriela Simonetti Trevisan",
+      "titulo": "A escrita feminista de Júlia Lopes de Almeida",
+      "editoria": "Intermeios",
+      "imgUrl": "/images/Aescritafeministadejulialopesdealmeida.jpeg",
+      "ano": 2021
+    },
+    {
+      "id": 15,
+      "autoria": "Margareth Rago",
+      "titulo": "As Marcas da Pantera: percursos de uma historiadora",
+      "editoria": "Intermeios",
+      "imgUrl": "/images/Asmarcasdapantera.jpeg",
+      "ano": 2021
+    },
+    {
+      "id": 16,
+      "autoria": "Isabella Bonaventura",
+      "titulo": "Profissão Farmacêutica em São Paulo: prática científica, ensino e gênero (1895 - 1917)",
+      "editoria": "Fiocruz",
+      "imgUrl": "/images/ProfissaoFarmaceutica.jpeg",
+      "ano": 2020
     }
   ]
 }

@@ -7,6 +7,7 @@ import ThumbContainer from "./thumbContainer";
 interface Minicursos {
   id: number;
   titulo: string;
+  local:string;
   ementa: string;
   programa?: string;
   objetivos?: [];

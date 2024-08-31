@@ -14,7 +14,7 @@
       },
       {
         "schedule": "14:00 - 18:00",
-        "event": "Seminários Temáticos"
+        "event": "Simpósios Temáticos"
       },
       {
         "schedule": "19:30 - 21:00",
@@ -46,7 +46,7 @@
       },
       {
         "schedule": "14:00 - 18:00",
-        "event": "Seminários Temáticos"
+        "event": "Simpósios Temáticos"
       },
       {
         "schedule": "19:30 - 21:00",
@@ -83,7 +83,7 @@
       },
       {
         "schedule": "14:00 - 16:30",
-        "event": "Seminários Temáticos"
+        "event": "Simpósios Temáticos"
       },
       {
         "schedule": "16:00 - 17:00",
@@ -95,7 +95,7 @@
       },
       {
         "schedule": "20:00",
-        "event": "Lançamento de Livros"
+        "event": "Lançamento de livros"
       },
       {
         "schedule": "21:00",
@@ -127,11 +127,11 @@
       },
       {
         "schedule": "14:00 - 18:00",
-        "event": "Seminários Temáticos"
+        "event": "Simpósios Temáticos"
       },
       {
         "schedule": "19:30 - 21:30",
-        "event": "Encerramento Conferência"
+        "event": "Conferência de Encerramento"
       }
     ]
   },
@@ -142,23 +142,23 @@
     "schedules": [
       {
         "schedule": "09:00",
-        "event": "Grupo A"
+        "event": "Visitas guiadas"
       },
       {
         "schedule": "10:00",
-        "event": "Grupo B"
+        "event": "Visitas guiadas"
       },
       {
         "schedule": "11:00",
-        "event": "Grupo C"
+        "event": "Visitas guiadas"
       },
       {
         "schedule": "14:00",
-        "event": "Grupo D"
+        "event": "Visitas guiadas"
       },
       {
         "schedule": "15:00",
-        "event": "Grupo E"
+        "event": "Visitas guiadas"
       }
     ]
   }

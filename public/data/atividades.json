@@ -1,0 +1,81 @@
+{
+  "marielle_franco": [
+    {
+      "nome": "Mesa redonda - 2",
+      "link": "/programacao/mesa-redonda/2/mesa-redonda/Mesas-redondas"
+    },
+    {
+      "nome": "Mesa redonda - 5",
+      "link": "/programacao/mesa-redonda/5/mesa-redonda/Mesas-redondas"
+    },
+    {
+      "nome": "Mesa redonda - 7",
+      "link": "/programacao/mesa-redonda/7/mesa-redonda/Mesas-redondas"
+    }
+  ],
+  "fausto_castilho": [
+    {
+      "nome": "Fórum de Graduação",
+      "link": "/programacao/forum-graduacao"
+    },
+    {
+      "nome": "Conferência de Abertura",
+      "link": "/programacao/abertura"
+    },
+    {
+      "nome": "Mesa redonda - 1",
+      "link": "/programacao/mesa-redonda/1/mesa-redonda/Mesas-redondas"
+    },
+    {
+      "nome": "Mesa redonda - 3",
+      "link": "/programacao/mesa-redonda/3/mesa-redonda/Mesas-redondas"
+    },
+    {
+      "nome": "Mesa redonda - 4",
+      "link": "/programacao/mesa-redonda/4/mesa-redonda/Mesas-redondas"
+    },
+    {
+      "nome": "Mesa redonda - 6",
+      "link": "/programacao/mesa-redonda/6/mesa-redonda/Mesas-redondas"
+    },
+    {
+      "nome": "Assembleia",
+      "link": "/programacao/assembleia"
+    },
+    {
+      "nome": "Conferência de Encerramento",
+      "link": "/programacao/encerramento"
+    }
+  ],
+  "sala_multiuso": [
+    {
+      "nome": "Minicurso - 1",
+      "link": "/programacao/mini-cursos/1/mini-cursos/Mini-cursos"
+    }
+  ],
+  "sala_IH08": [
+    {
+      "nome": "Minicurso - 2",
+      "link": "/programacao/mini-cursos/2/mini-cursos/Mini-cursos"
+    }
+  ],
+
+  "sala_IH09": [
+    {
+      "nome": "Minicurso - 3",
+      "link": "/programacao/mini-cursos/3/mini-cursos/Mini-cursos"
+    }
+  ],
+  "sala_Após_24A": [
+    {
+      "nome": "Minicurso - 4",
+      "link": "/programacao/mini-cursos/4/mini-cursos/Mini-cursos"
+    }
+  ],
+  "sala_Após_14B": [
+    {
+      "nome": "Minicurso - 5",
+      "link": "/programacao/mini-cursos/5/mini-cursos/Mini-cursos"
+    }
+  ]
+}

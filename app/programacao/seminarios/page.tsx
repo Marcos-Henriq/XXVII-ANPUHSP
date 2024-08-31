@@ -13,9 +13,9 @@ export default function Seminarios() {
           <Link underline="hover" color="inherit" href="/">
             Página inicial
           </Link>
-          <Typography color="text.primary">Programação - Seminários Temáticos</Typography>
+          <Typography color="text.primary">Programação - Simpósios Temáticos</Typography>
         </Breadcrumbs>
-        <h2 className="mb-4">Seminários Temáticos</h2>
+        <h2 className="mb-4">Simpósios Temáticos</h2>
         <ListSt/>
       </Container>
     </PageDefault>
