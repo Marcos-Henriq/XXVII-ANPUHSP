@@ -104,6 +104,94 @@ export default function Header({ title }: HeaderProps) {
             </ListItem>
             <Divider />
             <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/forum-graduacao">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Fórum de Graduação"
+                  className={styles.link}
+                />
+              </ListItemButton>
+            </ListItem>
+            <Divider />
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/abertura">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Abertura Conferência"
+                  className={styles.link}
+                />
+              </ListItemButton>
+            </ListItem>
+            <Divider />
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/apresentacao-posteres">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Apresentação de Pôsteres"
+                  className={styles.link}
+                />
+              </ListItemButton>
+            </ListItem>
+            <Divider />
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/assembleia">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Assembleia"
+                  className={styles.link}
+                />
+              </ListItemButton>
+            </ListItem>
+            <Divider />
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/lancamento-livros">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Lançamento de livros"
+                  className={styles.link}
+                />
+              </ListItemButton>
+            </ListItem>
+            <Divider />
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/encerramento">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Conferência de Encerramento"
+                  className={styles.link}
+                />
+              </ListItemButton>
+            </ListItem>
+            <Divider />
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/visitas-guiadas">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Visitas guiadas"
+                  className={styles.link}
+                />
+              </ListItemButton>
+            </ListItem>
+            <Divider />
+            <ListItem disablePadding className={styles.navItemMenu}>
+              <ListItemButton component="a" href="/programacao/credenciamento">
+                {/* <ListItemIcon>
+                </ListItemIcon> */}
+                <ListItemText
+                  primary="Credenciamento"
+                  className={styles.link}
+                />
+              </ListItemButton>
+            </ListItem>
+            <Divider />
+            <ListItem disablePadding className={styles.navItemMenu}>
               <ListItemButton component="a" href="/programacao/seminarios">
                 {/* <ListItemIcon>
             </ListItemIcon> */}

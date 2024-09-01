@@ -22,6 +22,7 @@ type LinksType = {
   "Lançamento de livros": string;
   "Conferência de Encerramento": string;
   "Visitas guiadas": string;
+  "Credenciamento": string;
 };
 
 interface Event {
@@ -43,7 +44,8 @@ const Schedule: React.FC<Event> = ({ id, dayWeek, date, schedules }) => {
     "Assembleia": "assembleia",
     "Lançamento de livros": "lancamento-livros",
     "Conferência de Encerramento" : "encerramento",
-    "Visitas guiadas": "visitas-guiadas"
+    "Visitas guiadas": "visitas-guiadas",
+    "Credenciamento" : "credenciamento"
   };
 
   function isLinkKey(eventKey: string): eventKey is keyof LinksType {

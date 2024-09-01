@@ -25,6 +25,11 @@ export default function Trabalho() {
           </Typography>
         </Breadcrumbs>
         <h2 className="mb-4">Apresentador de Trabalho</h2>
+        <Row className="w-100 py-2 px-2 container-instrucao mb-4">
+          <p className="text-default mb-0">
+            Nota: quem for utilizar power-point para sua exposição que o faça no formato PDF, para evitar desconfiguração.
+          </p>
+        </Row>
         <Row className="w-100 py-4 px-2 container-instrucao">
           <p className="text-default">
             Pedimos que não cheguem atrasado nos dias agendados para sua

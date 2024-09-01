@@ -51,28 +51,135 @@
     {
       "nome": "Minicurso - 1",
       "link": "/programacao/mini-cursos/1/mini-cursos/Mini-cursos"
+    },
+    {
+      "nome": "ST 23 - Reflexões sobre a História das Ciências...",
+      "link": "/programacao/seminarios/23/seminarios/Seminarios"
+    }
+  ],
+  "sala_defesa_teste_I": [
+    {
+      "nome": "ST 03 - Da autoria literária: história...",
+      "link": "/programacao/seminarios/3/seminarios/Seminarios"
+    }
+  ],
+  "sala_defesa_teste_II": [
+    {
+      "nome": "ST 17 - História, tecnologias digitais e história digital",
+      "link": "/programacao/seminarios/3/seminarios/Seminarios"
+    }
+  ],
+  "sala_congregacao": [
+    {
+      "nome": "ST 24 - Trabalho, cultura e cidade: memórias e direitos.",
+      "link": "/programacao/seminarios/24/seminarios/Seminarios"
+    }
+  ],
+  "sala_acessivel_I": [
+    {
+      "nome": "ST 25 - Vamos falar sobre música: diálogos, debates...",
+      "link": "/programacao/seminarios/24/seminarios/Seminarios"
     }
   ],
   "sala_IH08": [
     {
       "nome": "Minicurso - 2",
       "link": "/programacao/mini-cursos/2/mini-cursos/Mini-cursos"
+    },
+    {
+      "nome": "ST 08 - História & Música Popular",
+      "link": "/programacao/seminarios/8/seminarios/Seminarios"
     }
   ],
-
+  "sala_IH07": [
+    {
+      "nome": "ST 07 - Espaço Biográfico e História da Historiografia...",
+      "link": "/programacao/seminarios/7/seminarios/Seminarios"
+    }
+  ],
+  "sala_IH04": [
+    {
+      "nome": "ST 06 - Escrita da história e impressos periódicos...",
+      "link": "/programacao/seminarios/6/seminarios/Seminarios"
+    }
+  ],
+  "sala_IH02": [
+    {
+      "nome": "ST 19 - Memória, esquecimento e os patrimônios difíceis",
+      "link": "/programacao/seminarios/19/seminarios/Seminarios"
+    }
+  ],
+  "sala_11b": [
+    {
+      "nome": "ST 10 - História Ambiental",
+      "link": "/programacao/seminarios/10/seminarios/Seminarios"
+    }
+  ],
+  "sala_14b": [
+    {
+      "nome": "ST 21 - Periferias e ensino de História",
+      "link": "/programacao/seminarios/21/seminarios/Seminarios"
+    }
+  ],
+  "sala_video": [
+    {
+      "nome": "ST 22 - Produção historiográfica sobre mulheres",
+      "link": "/programacao/seminarios/22/seminarios/Seminarios"
+    }
+  ],
+  "sala_11a": [
+    {
+      "nome": "ST 18 - Literatura e imprensa no Brasil sob...",
+      "link": "/programacao/seminarios/18/seminarios/Seminarios"
+    }
+  ],
+  "sala_24a": [
+    {
+      "nome": "ST 20 - Patrimônios, museus e a História...",
+      "link": "/programacao/seminarios/20/seminarios/Seminarios"
+    }
+  ],
+  "sala_projecao": [
+    {
+      "nome": "ST 11 - História da África em perspectiva...",
+      "link": "/programacao/seminarios/11/seminarios/Seminarios"
+    }
+  ],
+  "sala_IH05": [
+    {
+      "nome": "ST 13 - História e produção de saberes com imagens",
+      "link": "/programacao/seminarios/13/seminarios/Seminarios"
+    }
+  ],
+  "sala_IH06": [
+    {
+      "nome": "ST 14 - História Econômica: perspectivas de investigação...",
+      "link": "/programacao/seminarios/14/seminarios/Seminarios"
+    }
+  ],
+  "labMet1": [
+    {
+      "nome": "ST 16 - História, imprensa e literatura",
+      "link": "/programacao/seminarios/16/seminarios/Seminarios"
+    }
+  ],
   "sala_IH09": [
     {
       "nome": "Minicurso - 3",
       "link": "/programacao/mini-cursos/3/mini-cursos/Mini-cursos"
+    },
+    {
+      "nome": "ST 04 - Diálogos Interdisciplinares...",
+      "link": "/programacao/seminarios/4/seminarios/Seminarios"
     }
   ],
-  "sala_Após_24A": [
+  "sala_Apos_24A": [
     {
       "nome": "Minicurso - 4",
       "link": "/programacao/mini-cursos/4/mini-cursos/Mini-cursos"
     }
   ],
-  "sala_Após_14B": [
+  "sala_Apos_14B": [
     {
       "nome": "Minicurso - 5",
       "link": "/programacao/mini-cursos/5/mini-cursos/Mini-cursos"

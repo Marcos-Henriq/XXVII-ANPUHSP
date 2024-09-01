@@ -39,7 +39,7 @@ export default function Home() {
             encontrar de forma presencial para refletir sobre o tema:
             <b>História, por que ainda falar sobre isso?</b> Com o objetivo de
             enfatizar a importância do conhecimento histórico e da prática
-            docente e todos os níveis, esse evento é uma demonstração contrária
+            docente em todos os níveis, esse evento é uma demonstração contrária
             ao negacionismo científico que se alastrou nos últimos anos.
           </p>
           <p className="text-default">
