@@ -31,11 +31,8 @@ interface Atividades {
   sala_congregacao: Evento[];
   sala_acessivel_I: Evento[];
   sala_11b: Evento[];
-  sala_14b: Evento[];
   sala_video: Evento[];
   sala_11a: Evento[];
-  sala_24a: Evento[];
-  sala_projecao: Evento[];
   sala_IH05: Evento[];
   sala_IH06: Evento[];
   labMet1: Evento[];
@@ -55,11 +52,8 @@ const {
   sala_congregacao,
   sala_acessivel_I,
   sala_11b,
-  sala_14b,
   sala_video,
   sala_11a,
-  sala_24a,
-  sala_projecao,
   sala_IH05,
   sala_IH06,
   labMet1,
@@ -99,11 +93,8 @@ const RestauranteList: React.FC = () => {
     sala_congregacao,
     sala_acessivel_I,
     sala_11b,
-    sala_14b,
     sala_video,
     sala_11a,
-    sala_24a,
-    sala_projecao,
     sala_IH05,
     sala_IH06,
     labMet1,
@@ -149,19 +140,19 @@ const RestauranteList: React.FC = () => {
             {renderAtividades(sala_IH09, "sala_IH09")}
           </div>
           <div>
-            <h2 className="title">Sala da Pós 24A</h2>
+            <h2 className="title">Sala 24A (prédio da Pós)</h2>
             {renderAtividades(sala_Apos_24A, "sala_Apos_24A")}
           </div>
           <div>
-            <h2 className="title">Sala da Pós 14B</h2>
+            <h2 className="title">Sala 14B (prédio da Pós)</h2>
             {renderAtividades(sala_Apos_14B, "sala_Apos_14B")}
           </div>
           <div>
-            <h2 className="title">Sala Defesa Teste I</h2>
+            <h2 className="title">Sala de Defesa de Tese I</h2>
             {renderAtividades(sala_defesa_teste_I, "sala_defesa_teste_I")}
           </div>
           <div>
-            <h2 className="title">Sala Defesa Teste II</h2>
+            <h2 className="title">Sala de Defesa de Tese II</h2>
             {renderAtividades(sala_defesa_teste_II, "sala_defesa_teste_II")}
           </div>
           <div>
@@ -173,12 +164,8 @@ const RestauranteList: React.FC = () => {
             {renderAtividades(sala_acessivel_I, "sala_acessivel_I")}
           </div>
           <div>
-            <h2 className="title">Sala 11B</h2>
+            <h2 className="title">Sala 11B (prédio da Pós)</h2>
             {renderAtividades(sala_11b, "sala_11b")}
-          </div>
-          <div>
-            <h2 className="title">Sala 14B</h2>
-            {renderAtividades(sala_14b, "sala_14b")}
           </div>
           <div>
             <h2 className="title">Sala de Vídeo</h2>
@@ -187,14 +174,6 @@ const RestauranteList: React.FC = () => {
           <div>
             <h2 className="title">Sala 11A</h2>
             {renderAtividades(sala_11a, "sala_11a")}
-          </div>
-          <div>
-            <h2 className="title">Sala 24A</h2>
-            {renderAtividades(sala_24a, "sala_24a")}
-          </div>
-          <div>
-            <h2 className="title">Sala de Projeção</h2>
-            {renderAtividades(sala_projecao, "sala_projecao")}
           </div>
           <div>
             <h2 className="title">Sala IH05</h2>

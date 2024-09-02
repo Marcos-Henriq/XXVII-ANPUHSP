@@ -1,199 +1,203 @@
 {
-    "mesasRedondas": [
-      {
-        "id": 1,
-        "titulo": "MESA-REDONDA 1",
-        "data": "Terça-feira, 03 de setembro de 2024",
-        "horario": "10:30h – 12:30h",
-        "local": "Anfiteatro Fausto Castilho",
-        "homenagem": "HOMENAGEM À ANA MARIA DE ALMEIDA CAMARGO",
-        "ementa": "Essa mesa-redonda é uma homenagem a uma das maiores especialistas e pensadoras da questão dos arquivos no Brasil, Ana Maria de Almeida Camargo...",
-        "mediadora": "Sylvia Bassetto (USP)",
-        "palestrantes": [
-          {
-            "nome": "Rita de Cássia Francisco",
-            "afiliacao": "Arquivo Municipal de Campinas",
-            "tema": "Ana Maria Camargo e os Arquivos Municipais"
-          },
-          {
-            "nome": "Thiago L. Nicodemo",
-            "afiliacao": "UNICAMP/ Arquivo do Estado de São Paulo",
-            "tema": "O pensamento de Ana Maria Camargo sobre gestão documental"
-          },
-          {
-            "nome": "Márcia Bassetto Paes",
-            "afiliacao": "Doutora em História Social pela FFLCH-USP",
-            "tema": "Reconstruindo histórias: recuperação de arquivos destruídos"
-          },
-          {
-            "nome": "Ana Célia Navarro",
-            "afiliacao": "USP – Associação Arquivistas",
-            "tema": "Arquivo, História e Memória: a presença de Ana Maria de Almeida Camargo na Arquivologia do Brasil"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "titulo": "MESA-REDONDA 2",
-        "data": "Terça-feira, 03 de setembro de 2024",
-        "horario": "10:30h – 12:30h",
-        "local": "Anfiteatro Marielle Franco",
-        "tema": "PLATAFORMIZAÇÃO NA EDUCAÇÃO E OUTRAS FORMAS DE PRECARIZAÇÃO: EXPERIÊNCIA, RESISTÊNCIA E PESQUISA",
-        "ementa": "O objetivo desta mesa redonda é debater o atual estado do avanço da plataformização na educação e outras formas de precarização...",
-        "mediadora": "Elaine Lourenço (UNIFESP)",
-        "palestrantes": [
-          {
-            "nome": "Renata Peres Barbosa",
-            "afiliacao": "FE/UFPR",
-            "tema": "Plataformização da Educação e Pensamento Unidimensional: o caso do estado do Paraná"
-          },
-          {
-            "nome": "Ricardo Castro",
-            "afiliacao": "Instituto de História/UFRJ",
-            "tema": "Guerras de classes e contrarrevolução na educação brasileira: apontamentos gerais e a resistência docente no Estado do Rio de Janeiro"
-          },
-          {
-            "nome": "Arrovani Luiz Fonseca",
-            "afiliacao": "SEE-SP/GT de Ensino de História ANPUH-SP",
-            "tema": "Do Centro de Mídias de São Paulo em tempos de pandemia ao ensino plataformizado"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "titulo": "MESA-REDONDA 3",
-        "data": "Terça-feira, 03 de setembro de 2024",
-        "horario": "19:00h – 21:00h",
-        "local": "Anfiteatro Fausto Castilho",
-        "tema": "DIÁSPORA AFRICANA E A EXPERIÊNCIA DE AFRICANOS E DESCENDENTES NO BRASIL DO SÉCULO XIX",
-        "ementa": "Esta mesa-redonda visa pensar a diáspora africana e as amplas consequências que o fenômeno teve em terras brasileiras...",
-        "mediadora": "Ana Silvia Volpi Scott (Unicamp)",
-        "palestrantes": [
-          {
-            "nome": "Fabiana Schleumer",
-            "afiliacao": "UNIFESP",
-            "tema": "Cativos e libertos em família(s): arranjos e dissensões em perspectiva comparada"
-          },
-          {
-            "nome": "Rafael de Bivar Marquese",
-            "afiliacao": "USP",
-            "tema": "Trabalho forçado na cafeicultura do século XIX: uma comparação entre a escravidão brasileira e o sistema kangany do Ceilão"
-          },
-          {
-            "nome": "Paulo Eduardo Teixeira",
-            "afiliacao": "Unesp",
-            "tema": "Revisitando a população escravizada em Campinas: família e compadrio nos séculos XVIII e XIX"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "titulo": "MESA-REDONDA 4",
-        "data": "Quarta-feira, 04 de setembro de 2024",
-        "horario": "10:30h – 12:30h",
-        "local": "Anfiteatro Fausto Castilho",
-        "tema": "FALAR DE VIOLÊNCIA DE GÊNERO? POR QUE NÃO!",
-        "ementa": "Por que é urgente falar a partir de múltiplos lugares, ouvir para identificar pertencimentos e ampliar as discussões sobre as desigualdades de gênero...",
-        "mediadora": "Luana Saturnino Tvardovskas (UNICAMP)",
-        "palestrantes": [
-          {
-            "nome": "Heloisa Buarque de Almeida",
-            "afiliacao": "USP",
-            "tema": "Sensibilidades jurídicas e novas definições de violência sexual"
-          },
-          {
-            "nome": "Lana Lage da Gama Lima",
-            "afiliacao": "UFF",
-            "tema": "Relações de poder emanadas da colonialidade: confissão e assédio sexual à mulheres no Brasil no século XVIII"
-          },
-          {
-            "nome": "Lidia Possas",
-            "afiliacao": "UNESP - LIEG",
-            "tema": "O tempo presente: o colonialismo, as relações de gênero e a violação de direitos"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "titulo": "MESA-REDONDA 5",
-        "data": "Quarta-feira, 04 de setembro de 2024",
-        "horario": "10:30h – 12:30h",
-        "local": "Anfiteatro Marielle Franco",
-        "tema": "FONTES E PERSPECTIVAS NAS PESQUISAS EM HISTÓRIA DAS INFÂNCIAS E DAS JUVENTUDES",
-        "ementa": "As histórias das infâncias, adolescências e juventudes no Brasil e na América Latina ainda são campos aos quais a historiografia dedica pouca atenção...",
-        "mediadora": "Eduardo Silveira Netto Nunes (UFAC/GT História das Infâncias e das Juventudes ANPUH-SP/REHIAL - Red de Estudios de Historia de las Infancias en América Latina)",
-        "palestrantes": [
-          {
-            "nome": "Cláudia Panizzolo",
-            "afiliacao": "UNIFESP/Grupo de Estudos e Pesquisa Infância, Cultura, História - GEPICH",
-            "tema": "A busca pelas crianças nos vãos e desvãos dos acervos de pesquisa: por uma história da infância imigrante"
-          },
-          {
-            "nome": "Sonia Bercito",
-            "afiliacao": "GT História das Infâncias e das Juventudes ANPUH-SP/GP Jovens urbanos – CNPq-PUCSP/ GP Urbesom – CNPq-UNIP/GT Infancias y juventudes CLACSO",
-            "tema": "Juventudes, cultura e política: possibilidades historiográficas"
-          },
-          {
-            "nome": "Eduardo Silveira Netto Nunes",
-            "afiliacao": "UFAC/GT História das Infâncias e das Juventudes ANPUH-SP/REHIAL - Red de Estudios de Historia de las Infancias en América Latina",
-            "tema": "Trabalho: Infâncias e adolescências das ditaduras nas Comissões da Verdade na América Latina, aproximações e fontes"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "titulo": "MESA-REDONDA 6",
-        "data": "Quinta-feira, 05 de setembro de 2024",
-        "horario": "10:30h – 12:30h",
-        "local": "Anfiteatro Fausto Castilho",
-        "tema": "TEMAS E DILEMAS DA HISTÓRIA PÚBLICA",
-        "ementa": "Considerando o crescente interesse e demandas de divulgação científica da História e da historiografia e suas interfaces com o campo em construção da História Pública...",
-        "mediadora": "Lindener Pareto (ICL – Instituto Conhecimento Liberta e ANPUH-SP)",
-        "palestrantes": [
-          {
-            "nome": "Cristina Meneguello",
-            "afiliacao": "UNICAMP",
-            "tema": "Divulgação científica e popularização da História: uma reflexão a partir da Olimpíada Nacional em História do Brasil"
-          },
-          {
-            "nome": "David Ribeiro",
-            "afiliacao": "Museu Paulista/USP",
-            "tema": "Os museus e a História no espaço público: desafios e possibilidades"
-          },
-          {
-            "nome": "Aline Stocco",
-            "afiliacao": "UFF",
-            "tema": "História pública e ensino de História: uma análise crítica"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "titulo": "MESA-REDONDA 7",
-        "data": "Quinta-feira, 05 de setembro de 2024",
-        "horario": "10:30h – 12:30h",
-        "local": "Anfiteatro Marielle Franco",
-        "tema": "HISTÓRIA E NARRATIVAS DIGITAIS",
-        "ementa": "Esta mesa-redonda aborda como as narrativas digitais estão transformando a prática historiográfica e a forma como a História é contada e compreendida...",
-        "mediadora": "Marcelo dos Santos (PUC-Rio)",
-        "palestrantes": [
-          {
-            "nome": "Mariana Saldanha",
-            "afiliacao": "UFMG",
-            "tema": "A História nos games: narrativas e metodologias"
-          },
-          {
-            "nome": "Fábio Ferreira",
-            "afiliacao": "Unifesp",
-            "tema": "Documentários e o impacto das plataformas digitais na pesquisa histórica"
-          },
-          {
-            "nome": "Viviane Nascimento",
-            "afiliacao": "UFBA",
-            "tema": "História e redes sociais: novas formas de engajamento e divulgação"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "mesasRedondas": [
+    {
+      "id": 1,
+      "titulo": "MESA-REDONDA 1",
+      "data": "Terça-feira, 03 de setembro de 2024",
+      "horario": "10:30h – 12:30h",
+      "local": "Anfiteatro Fausto Castilho",
+      "homenagem": "HOMENAGEM À ANA MARIA DE ALMEIDA CAMARGO",
+      "ementa": "Essa mesa-redonda é uma homenagem a uma das maiores especialistas e pensadoras da questão dos arquivos no Brasil, Ana Maria de Almeida Camargo...",
+      "mediadora": "Sylvia Bassetto (USP)",
+      "palestrantes": [
+        {
+          "nome": "Rita de Cássia Francisco",
+          "afiliacao": "Arquivo Municipal de Campinas",
+          "tema": "Ana Maria Camargo e os Arquivos Municipais"
+        },
+        {
+          "nome": "Thiago L. Nicodemo",
+          "afiliacao": "UNICAMP/ Arquivo do Estado de São Paulo",
+          "tema": "O pensamento de Ana Maria Camargo sobre gestão documental"
+        },
+        {
+          "nome": "Márcia Bassetto Paes",
+          "afiliacao": "Doutora em História Social pela FFLCH-USP",
+          "tema": "Reconstruindo histórias: recuperação de arquivos destruídos"
+        },
+        {
+          "nome": "Ana Célia Navarro",
+          "afiliacao": "USP – Associação Arquivistas",
+          "tema": "Arquivo, História e Memória: a presença de Ana Maria de Almeida Camargo na Arquivologia do Brasil"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "MESA-REDONDA 2",
+      "data": "Terça-feira, 03 de setembro de 2024",
+      "horario": "10:30h – 12:30h",
+      "local": "Anfiteatro Marielle Franco",
+      "tema": "PLATAFORMIZAÇÃO NA EDUCAÇÃO E OUTRAS FORMAS DE PRECARIZAÇÃO: EXPERIÊNCIA, RESISTÊNCIA E PESQUISA",
+      "ementa": "O objetivo desta mesa redonda é debater o atual estado do avanço da plataformização na educação e outras formas de precarização...",
+      "mediadora": "Elaine Lourenço (UNIFESP)",
+      "palestrantes": [
+        {
+          "nome": "Renata Peres Barbosa",
+          "afiliacao": "FE/UFPR",
+          "tema": "Plataformização da Educação e Pensamento Unidimensional: o caso do estado do Paraná"
+        },
+        {
+          "nome": "Ricardo Castro",
+          "afiliacao": "Instituto de História/UFRJ",
+          "tema": "Guerras de classes e contrarrevolução na educação brasileira: apontamentos gerais e a resistência docente no Estado do Rio de Janeiro"
+        },
+        {
+          "nome": "Arrovani Luiz Fonseca",
+          "afiliacao": "SEE-SP/GT de Ensino de História ANPUH-SP",
+          "tema": "Do Centro de Mídias de São Paulo em tempos de pandemia ao ensino plataformizado"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "MESA-REDONDA 3",
+      "data": "Terça-feira, 03 de setembro de 2024",
+      "horario": "19:00h – 21:00h",
+      "local": "Anfiteatro Fausto Castilho",
+      "tema": "DIÁSPORA AFRICANA E A EXPERIÊNCIA DE AFRICANOS E DESCENDENTES NO BRASIL DO SÉCULO XIX",
+      "ementa": "Esta mesa-redonda visa pensar a diáspora africana e as amplas consequências que o fenômeno teve em terras brasileiras...",
+      "mediadora": "Ana Silvia Volpi Scott (Unicamp)",
+      "palestrantes": [
+        {
+          "nome": "Fabiana Schleumer",
+          "afiliacao": "UNIFESP",
+          "tema": "Cativos e libertos em família(s): arranjos e dissensões em perspectiva comparada"
+        },
+        {
+          "nome": "Rafael de Bivar Marquese",
+          "afiliacao": "USP",
+          "tema": "Trabalho forçado na cafeicultura do século XIX: uma comparação entre a escravidão brasileira e o sistema kangany do Ceilão"
+        },
+        {
+          "nome": "Paulo Eduardo Teixeira",
+          "afiliacao": "Unesp",
+          "tema": "Revisitando a população escravizada em Campinas: família e compadrio nos séculos XVIII e XIX"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "MESA-REDONDA 4",
+      "data": "Quarta-feira, 04 de setembro de 2024",
+      "horario": "10:30h – 12:30h",
+      "local": "Anfiteatro Fausto Castilho",
+      "tema": "FALAR DE VIOLÊNCIA DE GÊNERO? POR QUE NÃO!",
+      "ementa": "Por que é urgente falar a partir de múltiplos lugares, ouvir para identificar pertencimentos e ampliar as discussões sobre as desigualdades de gênero...",
+      "mediadora": "Luana Saturnino Tvardovskas (UNICAMP)",
+      "palestrantes": [
+        {
+          "nome": "Heloisa Buarque de Almeida",
+          "afiliacao": "USP",
+          "tema": "Sensibilidades jurídicas e novas definições de violência sexual"
+        },
+        {
+          "nome": "Lana Lage da Gama Lima",
+          "afiliacao": "UFF",
+          "tema": "Relações de poder emanadas da colonialidade: confissão e assédio sexual à mulheres no Brasil no século XVIII"
+        },
+        {
+          "nome": "Lidia Possas",
+          "afiliacao": "UNESP - LIEG",
+          "tema": "O tempo presente: o colonialismo, as relações de gênero e a violação de direitos"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "MESA-REDONDA 5",
+      "data": "Quarta-feira, 04 de setembro de 2024",
+      "horario": "10:30h – 12:30h",
+      "local": "Anfiteatro Marielle Franco",
+      "tema": "FONTES E PERSPECTIVAS NAS PESQUISAS EM HISTÓRIA DAS INFÂNCIAS E DAS JUVENTUDES",
+      "ementa": "As histórias das infâncias, adolescências e juventudes no Brasil e na América Latina ainda são campos aos quais a historiografia dedica pouca atenção...",
+      "mediadora": "Eduardo Silveira Netto Nunes (UFAC/GT História das Infâncias e das Juventudes ANPUH-SP/REHIAL - Red de Estudios de Historia de las Infancias en América Latina)",
+      "palestrantes": [
+        {
+          "nome": "Cláudia Panizzolo",
+          "afiliacao": "UNIFESP/Grupo de Estudos e Pesquisa Infância, Cultura, História - GEPICH",
+          "tema": "A busca pelas crianças nos vãos e desvãos dos acervos de pesquisa: por uma história da infância imigrante"
+        },
+        {
+          "nome": "Sonia Bercito",
+          "afiliacao": "GT História das Infâncias e das Juventudes ANPUH-SP/GP Jovens urbanos – CNPq-PUCSP/ GP Urbesom – CNPq-UNIP/GT Infancias y juventudes CLACSO",
+          "tema": "Juventudes, cultura e política: possibilidades historiográficas"
+        },
+        {
+          "nome": "Eduardo Silveira Netto Nunes",
+          "afiliacao": "UFAC/GT História das Infâncias e das Juventudes ANPUH-SP/REHIAL - Red de Estudios de Historia de las Infancias en América Latina",
+          "tema": "Trabalho: Infâncias e adolescências das ditaduras nas Comissões da Verdade na América Latina, aproximações e fontes"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "MESA-REDONDA 6",
+      "data": "Quinta-feira, 05 de setembro de 2024",
+      "horario": "10:30h – 12:30h",
+      "local": "Anfiteatro Fausto Castilho",
+      "tema": "TEMAS E DILEMAS DA HISTÓRIA PÚBLICA",
+      "ementa": "Considerando o crescente interesse e demandas de divulgação científica da História e da historiografia e suas interfaces com o campo em construção da História Pública...",
+      "mediadora": "Lindener Pareto (ICL – Instituto Conhecimento Liberta e ANPUH-SP)",
+      "palestrantes": [
+        {
+          "nome": "Cristina Meneguello",
+          "afiliacao": "UNICAMP",
+          "tema": "Divulgação científica e popularização da História: uma reflexão a partir da Olimpíada Nacional em História do Brasil"
+        },
+        {
+          "nome": "David Ribeiro",
+          "afiliacao": "Museu Paulista/USP",
+          "tema": "Os museus e a História no espaço público: desafios e possibilidades"
+        },
+        {
+          "nome": "Aline Stocco",
+          "afiliacao": "UFF",
+          "tema": "História pública e ensino de História: uma análise crítica"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "MESA-REDONDA 7",
+      "data": "Quinta-feira, 05 de setembro de 2024",
+      "horario": "10:30h – 12:30h",
+      "local": "Anfiteatro Marielle Franco",
+      "tema": "OS VINTE ANOS DA LEI 10.639/03 E SEUS IMPACTOS NAS UNIVERSIDADES PÚBLICAS PAULISTAS. (GT História da África)",
+      "ementa": "Passados vinte anos da implementação da Lei 10.639/03 – que tornou obrigatório o ensino de História e Cultura Africana e Afro-Brasileira nos currículos escolares –, o que mudou nas universidades públicas paulistas em termos de promoção de debates e pesquisas, formação de professores e pesquisadores e interação com os diferentes níveis da educação básica? A mesa apresenta a perspectiva de historiadoras que atuam em diferentes universidades públicas paulistas e apresenta suas análises e reﬂexões sobre as conquistas e lacunas nesses vinte anos da lei.",
+      "mediadora": "Helena Wakim Moreno (UFF)",
+      "palestrantes": [
+        {
+          "nome": "Lúcia Helena Oliveira Silva",
+          "afiliacao": "Unesp",
+          "tema": "A Unesp e a História da África"
+        },
+        {
+          "nome": "Lucilene Reginaldo",
+          "afiliacao": "Unicamp",
+          "tema": "A História da África na encruzilhada das demandas do ensino, da pesquisa e dos movimentos sociais"
+        },
+        {
+          "nome": "Marina de Mello e Souza",
+          "afiliacao": "Usp",
+          "tema": "História da África na USP"
+        },
+        {
+          "nome": "Patrícia Teixeira Santos",
+          "afiliacao": "Unifesp",
+          "tema": "Os estudos sobre religião e sociedades na África contemporânea a partir da lei 10639/03"
+        }
+      ]
+    }
+  ]
+}

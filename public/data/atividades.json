@@ -11,12 +11,20 @@
     {
       "nome": "Mesa redonda - 7",
       "link": "/programacao/mesa-redonda/7/mesa-redonda/Mesas-redondas"
+    },
+    {
+      "nome": "Minicurso - 3",
+      "link": "/programacao/mini-cursos/3/mini-cursos/Mini-cursos"
     }
   ],
   "fausto_castilho": [
     {
       "nome": "Fórum de Graduação",
       "link": "/programacao/forum-graduacao"
+    },
+    {
+      "nome": "Minicurso - 1",
+      "link": "/programacao/mini-cursos/1/mini-cursos/Mini-cursos"
     },
     {
       "nome": "Conferência de Abertura",
@@ -45,13 +53,13 @@
     {
       "nome": "Conferência de Encerramento",
       "link": "/programacao/encerramento"
+    },
+    {
+      "nome": "ST 11 - História da África em perspectiva...",
+      "link": "/programacao/seminarios/11/seminarios/Seminarios"
     }
   ],
   "sala_multiuso": [
-    {
-      "nome": "Minicurso - 1",
-      "link": "/programacao/mini-cursos/1/mini-cursos/Mini-cursos"
-    },
     {
       "nome": "ST 23 - Reflexões sobre a História das Ciências...",
       "link": "/programacao/seminarios/23/seminarios/Seminarios"
@@ -65,14 +73,14 @@
   ],
   "sala_defesa_teste_II": [
     {
-      "nome": "ST 17 - História, tecnologias digitais e história digital",
-      "link": "/programacao/seminarios/3/seminarios/Seminarios"
+      "nome": "ST 10 - História Ambiental",
+      "link": "/programacao/seminarios/10/seminarios/Seminarios"
     }
   ],
   "sala_congregacao": [
     {
-      "nome": "ST 24 - Trabalho, cultura e cidade: memórias e direitos.",
-      "link": "/programacao/seminarios/24/seminarios/Seminarios"
+      "nome": "Minicurso - 4",
+      "link": "/programacao/mini-cursos/4/mini-cursos/Mini-cursos"
     }
   ],
   "sala_acessivel_I": [
@@ -107,18 +115,16 @@
     {
       "nome": "ST 19 - Memória, esquecimento e os patrimônios difíceis",
       "link": "/programacao/seminarios/19/seminarios/Seminarios"
+    },
+    {
+      "nome": "ST 24 - Trabalho, cultura e cidade: memórias e direitos.",
+      "link": "/programacao/seminarios/24/seminarios/Seminarios"
     }
   ],
   "sala_11b": [
     {
-      "nome": "ST 10 - História Ambiental",
-      "link": "/programacao/seminarios/10/seminarios/Seminarios"
-    }
-  ],
-  "sala_14b": [
-    {
-      "nome": "ST 21 - Periferias e ensino de História",
-      "link": "/programacao/seminarios/21/seminarios/Seminarios"
+      "nome": "ST 17 - História, tecnologias digitais e história digital",
+      "link": "/programacao/seminarios/3/seminarios/Seminarios"
     }
   ],
   "sala_video": [
@@ -131,18 +137,6 @@
     {
       "nome": "ST 18 - Literatura e imprensa no Brasil sob...",
       "link": "/programacao/seminarios/18/seminarios/Seminarios"
-    }
-  ],
-  "sala_24a": [
-    {
-      "nome": "ST 20 - Patrimônios, museus e a História...",
-      "link": "/programacao/seminarios/20/seminarios/Seminarios"
-    }
-  ],
-  "sala_projecao": [
-    {
-      "nome": "ST 11 - História da África em perspectiva...",
-      "link": "/programacao/seminarios/11/seminarios/Seminarios"
     }
   ],
   "sala_IH05": [
@@ -165,24 +159,24 @@
   ],
   "sala_IH09": [
     {
-      "nome": "Minicurso - 3",
-      "link": "/programacao/mini-cursos/3/mini-cursos/Mini-cursos"
-    },
-    {
       "nome": "ST 04 - Diálogos Interdisciplinares...",
       "link": "/programacao/seminarios/4/seminarios/Seminarios"
+    },
+    {
+      "nome": "Minicurso - 5",
+      "link": "/programacao/mini-cursos/5/mini-cursos/Mini-cursos"
     }
   ],
   "sala_Apos_24A": [
     {
-      "nome": "Minicurso - 4",
-      "link": "/programacao/mini-cursos/4/mini-cursos/Mini-cursos"
+      "nome": "ST 21 - Periferias e ensino de História",
+      "link": "/programacao/seminarios/21/seminarios/Seminarios"
     }
   ],
   "sala_Apos_14B": [
     {
-      "nome": "Minicurso - 5",
-      "link": "/programacao/mini-cursos/5/mini-cursos/Mini-cursos"
+      "nome": "ST 20 - Patrimônios, museus e a História...",
+      "link": "/programacao/seminarios/20/seminarios/Seminarios"
     }
   ]
 }
